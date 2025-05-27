@@ -1,0 +1,13 @@
+{
+    "name": "sgq",
+    "version": "24.12.2",
+    "description": "sgq",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "private": true,
+    "dependencies": {
+        "chart.js": "^4.3.0"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}

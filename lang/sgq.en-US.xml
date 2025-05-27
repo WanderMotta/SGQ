@@ -1,0 +1,1621 @@
+<ew-language date="2024/6/18" id="en-US" author="e.World Technology Limited">
+  <project>
+    <phrase id="bodytitle" value="Sistema de Gerenciamento da Qualidade" />
+    <phrase id="footertext" value="&amp;copy;Wander - Jan/2023. Reprodução Proibida." />
+    <menu id="173">
+      <phrase id="menutext" value="Dashboard" />
+    </menu>
+    <menu id="168">
+      <phrase id="menutext" value="Auditoria" />
+    </menu>
+    <menu id="67">
+      <phrase id="menutext" value="Analise Critica" />
+    </menu>
+    <menu id="66">
+      <phrase id="menutext" value="Aud Interna" />
+    </menu>
+    <menu id="69">
+      <phrase id="menutext" value="Plano Aud Int" />
+    </menu>
+    <menu id="70">
+      <phrase id="menutext" value="Relatorio Aud Int" />
+    </menu>
+    <menu id="68">
+      <phrase id="menutext" value="Plano" />
+    </menu>
+    <menu id="171">
+      <phrase id="menutext" value="view plano auditoria" />
+    </menu>
+    <menu id="121">
+      <phrase id="menutext" value="Contexto Org" />
+    </menu>
+    <menu id="50">
+      <phrase id="menutext" value="Analise Negocio" />
+    </menu>
+    <menu id="56">
+      <phrase id="menutext" value="Analise SWOT" />
+    </menu>
+    <menu id="51">
+      <phrase id="menutext" value="Obj Qualidade" />
+    </menu>
+    <menu id="7">
+      <phrase id="menutext" value="Processos" />
+    </menu>
+    <menu id="169">
+      <phrase id="menutext" value="view relatorio aud int" />
+    </menu>
+    <menu id="14">
+      <phrase id="menutext" value="Documentos" />
+    </menu>
+    <menu id="4">
+      <phrase id="menutext" value="Doc Interno" />
+    </menu>
+    <menu id="3">
+      <phrase id="menutext" value="Doc Externo" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="Registros" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="Revisão" />
+    </menu>
+    <menu id="49">
+      <phrase id="menutext" value="Mudanças" />
+    </menu>
+    <menu id="17">
+      <phrase id="menutext" value="Indicadores" />
+    </menu>
+    <menu id="47">
+      <phrase id="menutext" value="Não Conformidade" />
+    </menu>
+    <menu id="23">
+      <phrase id="menutext" value="Riscos/Oport" />
+    </menu>
+    <menu id="65">
+      <phrase id="menutext" value="Auditoria Interna" />
+    </menu>
+    <menu id="10">
+      <phrase id="menutext" value="Tabelas" />
+    </menu>
+    <menu id="2">
+      <phrase id="menutext" value="Categoria de Documentos" />
+    </menu>
+    <menu id="54">
+      <phrase id="menutext" value="Considerações" />
+    </menu>
+    <menu id="57">
+      <phrase id="menutext" value="Competência" />
+    </menu>
+    <menu id="45">
+      <phrase id="menutext" value="Departamentos" />
+    </menu>
+    <menu id="6">
+      <phrase id="menutext" value="Localização Documento" />
+    </menu>
+    <menu id="9">
+      <phrase id="menutext" value="Status Documento" />
+    </menu>
+    <menu id="41">
+      <phrase id="menutext" value="Risco/Oportunidade" />
+    </menu>
+    <menu id="19">
+      <phrase id="menutext" value="Ações" />
+    </menu>
+    <menu id="20">
+      <phrase id="menutext" value="Frequencia" />
+    </menu>
+    <menu id="21">
+      <phrase id="menutext" value="Severidade" />
+    </menu>
+    <menu id="22">
+      <phrase id="menutext" value="Origem" />
+    </menu>
+    <menu id="42">
+      <phrase id="menutext" value="Periodicidade" />
+    </menu>
+    <menu id="25">
+      <phrase id="menutext" value="Tipo " />
+    </menu>
+    <menu id="24">
+      <phrase id="menutext" value="Status" />
+    </menu>
+    <menu id="174">
+      <phrase id="menutext" value="Tipo" />
+    </menu>
+    <menu id="64">
+      <phrase id="menutext" value="Unidade de Medida" />
+    </menu>
+    <menu id="11">
+      <phrase id="menutext" value="Segurança" />
+    </menu>
+    <menu id="1">
+      <phrase id="menutext" value="Usuários" />
+    </menu>
+    <menu id="53">
+      <phrase id="menutext" value="Permissões" />
+    </menu>
+    <menu id="52">
+      <phrase id="menutext" value="Tabelas de Permissões" />
+    </menu>
+    <menu id="16">
+      <phrase id="menutext" value="Relatórios" />
+    </menu>
+    <menu id="55">
+      <phrase id="menutext" value="Analise de Swot" />
+    </menu>
+    <menu id="59">
+      <phrase id="menutext" value="Indicadores Gráficos" />
+    </menu>
+    <menu id="58">
+      <phrase id="menutext" value="Indices/Gráficos" />
+    </menu>
+    <menu id="172">
+      <phrase id="menutext" value="Plano Auditoria Interna" />
+    </menu>
+    <menu id="63">
+      <phrase id="menutext" value="Processos Existentes" />
+    </menu>
+    <menu id="62">
+      <phrase id="menutext" value="Processos x Indicadores" />
+    </menu>
+    <menu id="170">
+      <phrase id="menutext" value="Relatório de  Aud Int" />
+    </menu>
+    <menu id="61">
+      <phrase id="menutext" value="view processo indicador" />
+    </menu>
+    <menu id="48">
+      <phrase id="menutext" value="Plano de Ação" />
+    </menu>
+    <menu id="46">
+      <phrase id="menutext" value="Plano de Ação" />
+    </menu>
+    <menu id="18">
+      <phrase id="menutext" value="Indicadores" />
+    </menu>
+    <menu id="44">
+      <phrase id="menutext" value="Analise SWOT" />
+    </menu>
+    <table id="acao_risco_oportunidade">
+      <phrase id="tblcaption" value="Ações - Risco/Oportunidades" />
+      <field id="idacao_risco_oportunidade">
+        <phrase id="fldcaption" value="idacao risco oportunidade" />
+      </field>
+      <field id="tipo_risco_oportunidade_idtipo_risco_oportunidade">
+        <phrase id="fldcaption" value="Tipo" />
+      </field>
+      <field id="acao">
+        <phrase id="fldcaption" value="Ação" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observações" />
+      </field>
+    </table>
+    <table id="analise_critica_direcao">
+      <phrase id="tblcaption" value="Analise Critica Direção" />
+      <phrase id="tblpagecaption1" value="Participantes/Responsável" />
+      <phrase id="tblpagecaption2" value="9.3.2 - Entradas de Analise Critica Direção" />
+      <phrase id="tblpagecaption3" value="9.3.3 - Saídas de Analise Critica Direção" />
+      <phrase id="tblpagecaption4" value="Anexos" />
+      <field id="idanalise_critica_direcao">
+        <phrase id="fldcaption" value="ACD Nr" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="participantes">
+        <phrase id="fldcaption" value="Participantes" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Aprovador:" />
+      </field>
+      <field id="situacao_anterior">
+        <phrase id="fldcaption" value="9.3.2 - Situação Ações Provinientes de ACD Anteriores" />
+      </field>
+      <field id="mudanca_sqg">
+        <phrase id="fldcaption" value="b - Mudanças Interna/Externa pertinente ao SGQ" />
+      </field>
+      <field id="desempenho_eficacia">
+        <phrase id="fldcaption" value="c - Desempenho e Eficacia do SGQ" />
+      </field>
+      <field id="satisfacao_cliente">
+        <phrase id="fldcaption" value="c1 - Satisfação Cliente e retroalimentação das PI" />
+      </field>
+      <field id="objetivos_alcancados">
+        <phrase id="fldcaption" value="c2 - Extensão na qual os objetivos da qualidade foram alcançados" />
+      </field>
+      <field id="desempenho_processo">
+        <phrase id="fldcaption" value="c3 - Desempenho do Processo Conformidade de Prod/Serviços" />
+      </field>
+      <field id="nao_confomidade_acoes_corretivas">
+        <phrase id="fldcaption" value="c4 - Não Conformidade e Ações Corretivas" />
+      </field>
+      <field id="monitoramento_medicao">
+        <phrase id="fldcaption" value="c5 - Resultados de Medição e Monitoramento" />
+      </field>
+      <field id="resultado_auditoria">
+        <phrase id="fldcaption" value="c6 - Resultado de Auditoria" />
+      </field>
+      <field id="desempenho_provedores_ext">
+        <phrase id="fldcaption" value="c7 - Desempenho Provedores Externos" />
+      </field>
+      <field id="suficiencia_recursos">
+        <phrase id="fldcaption" value="d - Suficiencia de Recursos" />
+      </field>
+      <field id="acoes_risco_oportunidades">
+        <phrase id="fldcaption" value="e - Eficacia de Ações Tomadas p/Abordar Risco e Oportunidades" />
+      </field>
+      <field id="oportunidade_melhora_entrada">
+        <phrase id="fldcaption" value="f - Oportunidades Melhorias (Trazidas)" />
+      </field>
+      <field id="oportunidade_melhora_saida">
+        <phrase id="fldcaption" value="9.3.3 - Oportunidades Melhorias (a ser Implementada)" />
+      </field>
+      <field id="qualquer_mudanca_sgq">
+        <phrase id="fldcaption" value="b - Qualquer Nec Mudanças no SGQ" />
+      </field>
+      <field id="nec_recurso">
+        <phrase id="fldcaption" value="c - Necessidade de Recursos" />
+      </field>
+      <field id="anexo">
+        <phrase id="fldcaption" value="Anexos" />
+      </field>
+    </table>
+    <table id="analise_negocio">
+      <phrase id="tblcaption" value="Analise do Negocio" />
+      <field id="idanalise_negocio">
+        <phrase id="fldcaption" value="idanalise negocio" />
+      </field>
+      <field id="item">
+        <phrase id="fldcaption" value="Objeto" />
+      </field>
+      <field id="descrever">
+        <phrase id="fldcaption" value="Descrever Objeto" />
+      </field>
+      <field id="posicao">
+        <phrase id="fldcaption" value="Posição" />
+      </field>
+    </table>
+    <table id="analise_swot">
+      <phrase id="tblcaption" value="Analise de Swot" />
+      <field id="idanalise_swot">
+        <phrase id="fldcaption" value="idanalise swot" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="fatores">
+        <phrase id="fldcaption" value="Fatores Int/Ext" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Fatores Internos" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Fatores Externos" />
+      </field>
+      <field id="ponto">
+        <phrase id="fldcaption" value="Pontos" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Ponto Forte" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Ponto Fraco" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="Oportunidade" />
+        <phrase id="fldtagvalue4" value="4" />
+        <phrase id="fldtagcaption4" value="Ameaça" />
+      </field>
+      <field id="analise">
+        <phrase id="fldcaption" value="Detalhar" />
+      </field>
+      <field id="impacto_idimpacto">
+        <phrase id="fldcaption" value="Severidade" />
+      </field>
+      <field id="contexto_idcontexto">
+        <phrase id="fldcaption" value="IdContexto" />
+      </field>
+    </table>
+    <table id="categoria_documento">
+      <phrase id="tblcaption" value="Categoria de Documentos" />
+      <field id="idcategoria_documento">
+        <phrase id="fldcaption" value="idcategoria documento" />
+      </field>
+      <field id="categoria">
+        <phrase id="fldcaption" value="Categoria" />
+        <phrase id="flderrmsg" value="Já Cadastrado !!!" />
+      </field>
+      <field id="sigla">
+        <phrase id="fldcaption" value="Sigla" />
+        <phrase id="flderrmsg" value="Já Cadastrado !!!" />
+      </field>
+    </table>
+    <table id="competencia">
+      <phrase id="tblcaption" value="Competencia" />
+      <field id="idcompetencia">
+        <phrase id="fldcaption" value="idcompetencia" />
+      </field>
+      <field id="mes">
+        <phrase id="fldcaption" value="Mês" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Jan" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Fev" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="Mar" />
+        <phrase id="fldtagvalue4" value="4" />
+        <phrase id="fldtagcaption4" value="Abr" />
+        <phrase id="fldtagvalue5" value="5" />
+        <phrase id="fldtagcaption5" value="Mai" />
+        <phrase id="fldtagvalue6" value="6" />
+        <phrase id="fldtagcaption6" value="Jun" />
+        <phrase id="fldtagvalue7" value="7" />
+        <phrase id="fldtagcaption7" value="Jul" />
+        <phrase id="fldtagvalue8" value="8" />
+        <phrase id="fldtagcaption8" value="Ago" />
+        <phrase id="fldtagvalue9" value="9" />
+        <phrase id="fldtagcaption9" value="Set" />
+        <phrase id="fldtagvalue10" value="10" />
+        <phrase id="fldtagcaption10" value="Out" />
+        <phrase id="fldtagvalue11" value="11" />
+        <phrase id="fldtagcaption11" value="Nov" />
+        <phrase id="fldtagvalue12" value="12" />
+        <phrase id="fldtagcaption12" value="Dez" />
+      </field>
+      <field id="ano">
+        <phrase id="fldcaption" value="Ano" />
+        <phrase id="fldtagvalue1" value="2022" />
+        <phrase id="fldtagcaption1" value="2022" />
+        <phrase id="fldtagvalue2" value="2023" />
+        <phrase id="fldtagcaption2" value="2023" />
+        <phrase id="fldtagvalue3" value="2024" />
+        <phrase id="fldtagcaption3" value="2024" />
+        <phrase id="fldtagvalue4" value="2025" />
+        <phrase id="fldtagcaption4" value="2025" />
+        <phrase id="fldtagvalue5" value="2026" />
+        <phrase id="fldtagcaption5" value="2026" />
+      </field>
+      <field id="data_base">
+        <phrase id="fldcaption" value="Data Base" />
+        <phrase id="flderrmsg" value="Data Base Já Cadastrada !!!" />
+      </field>
+    </table>
+    <table id="consideracoes">
+      <phrase id="tblcaption" value="Considerações Importantes" />
+      <field id="idconsideracoes">
+        <phrase id="fldcaption" value="idconsideracoes" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Rotina" />
+      </field>
+      <field id="consideracao">
+        <phrase id="fldcaption" value="Considerações" />
+      </field>
+    </table>
+    <table id="contexto">
+      <phrase id="tblcaption" value="Contexto da Organização" />
+      <field id="idcontexto">
+        <phrase id="fldcaption" value="idcontexto" />
+      </field>
+      <field id="ano">
+        <phrase id="fldcaption" value="Relativo Ano" />
+        <phrase id="fldtagvalue1" value="2022" />
+        <phrase id="fldtagcaption1" value="2022" />
+        <phrase id="fldtagvalue2" value="2023" />
+        <phrase id="fldtagcaption2" value="2023" />
+        <phrase id="fldtagvalue3" value="2024" />
+        <phrase id="fldtagcaption3" value="2024" />
+        <phrase id="fldtagvalue4" value="2025" />
+        <phrase id="fldtagcaption4" value="2025" />
+      </field>
+      <field id="revisao">
+        <phrase id="fldcaption" value="Revisão Nr" />
+        <phrase id="fldtagvalue1" value="00" />
+        <phrase id="fldtagcaption1" value="00" />
+        <phrase id="fldtagvalue2" value="01" />
+        <phrase id="fldtagcaption2" value="01" />
+        <phrase id="fldtagvalue3" value="02" />
+        <phrase id="fldtagcaption3" value="02" />
+        <phrase id="fldtagvalue4" value="03" />
+        <phrase id="fldtagcaption4" value="03" />
+        <phrase id="fldtagvalue5" value="04" />
+        <phrase id="fldtagcaption5" value="04" />
+        <phrase id="fldtagvalue6" value="05" />
+        <phrase id="fldtagcaption6" value="05" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Dt Revisão" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Elaborador:" />
+      </field>
+      <field id="usuario_idusuario1">
+        <phrase id="fldcaption" value="Aprovador:" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observação" />
+      </field>
+    </table>
+    <table id="dashboard2">
+      <phrase id="tblcaption" value="Dashboard" />
+    </table>
+    <table id="departamentos">
+      <phrase id="tblcaption" value="Departamentos" />
+      <field id="iddepartamentos">
+        <phrase id="fldcaption" value="iddepartamentos" />
+      </field>
+      <field id="departamento">
+        <phrase id="fldcaption" value="Departamento" />
+        <phrase id="flderrmsg" value="Já Cadastrado !!!" />
+      </field>
+    </table>
+    <table id="documento_externo">
+      <phrase id="tblcaption" value="Documentos Externo" />
+      <field id="iddocumento_externo">
+        <phrase id="fldcaption" value="IdDocExt" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Cadastrado Em:" />
+      </field>
+      <field id="titulo_documento">
+        <phrase id="fldcaption" value="Titulo Documento" />
+      </field>
+      <field id="distribuicao">
+        <phrase id="fldcaption" value="Distribuição" />
+        <phrase id="fldtagvalue1" value="Eletronica" />
+        <phrase id="fldtagcaption1" value="Eletronica" />
+        <phrase id="fldtagvalue2" value="Fisica" />
+        <phrase id="fldtagcaption2" value="Fisica" />
+      </field>
+      <field id="tem_validade">
+        <phrase id="fldcaption" value="Validade?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="valido_ate">
+        <phrase id="fldcaption" value="Valido Até:" />
+      </field>
+      <field id="restringir_acesso">
+        <phrase id="fldcaption" value="Restringir Acesso?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="localizacao_idlocalizacao">
+        <phrase id="fldcaption" value="Localização" />
+      </field>
+      <field id="usuario_responsavel">
+        <phrase id="fldcaption" value="Responsável" />
+      </field>
+      <field id="anexo">
+        <phrase id="fldcaption" value="Anexo" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observação" />
+      </field>
+    </table>
+    <table id="documento_interno">
+      <phrase id="tblcaption" value="Documentos Interno" />
+      <field id="iddocumento_interno">
+        <phrase id="fldcaption" value="IdDocInt" />
+      </field>
+      <field id="titulo_documento">
+        <phrase id="fldcaption" value="Titulo Documento" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="restringir_acesso">
+        <phrase id="fldcaption" value="Restingir Acesso?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="categoria_documento_idcategoria_documento">
+        <phrase id="fldcaption" value="Categoria" />
+      </field>
+      <field id="processo_idprocesso">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Usuário" />
+      </field>
+    </table>
+    <table id="documento_registro">
+      <phrase id="tblcaption" value="Registros" />
+      <field id="iddocumento_registro">
+        <phrase id="fldcaption" value="IdRegistro" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo do Registro" />
+      </field>
+      <field id="categoria_documento_idcategoria_documento">
+        <phrase id="fldcaption" value="Categoria" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Responsável" />
+      </field>
+      <field id="anexo">
+        <phrase id="fldcaption" value="Anexo" />
+      </field>
+    </table>
+    <table id="frequencia">
+      <phrase id="tblcaption" value="Frequencia" />
+      <field id="idfrequencia">
+        <phrase id="fldcaption" value="idfrequencia" />
+      </field>
+      <field id="frequencia">
+        <phrase id="fldcaption" value="Frequencia" />
+      </field>
+      <field id="grau">
+        <phrase id="fldcaption" value="Grau [3,5,7,9]" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observação" />
+      </field>
+    </table>
+    <table id="gestao_mudanca">
+      <phrase id="tblcaption" value="Gestão de Mudanças" />
+      <field id="idgestao_mudanca">
+        <phrase id="fldcaption" value="IdMudança" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo da Mudança" />
+      </field>
+      <field id="dt_inicio">
+        <phrase id="fldcaption" value="Inicio" />
+      </field>
+      <field id="detalhamento">
+        <phrase id="fldcaption" value="Detalhamento da Mudança" />
+      </field>
+      <field id="impacto">
+        <phrase id="fldcaption" value="Impactos" />
+      </field>
+      <field id="motivo">
+        <phrase id="fldcaption" value="Justificativa" />
+      </field>
+      <field id="recursos">
+        <phrase id="fldcaption" value="Recuros R$" />
+      </field>
+      <field id="prazo_ate">
+        <phrase id="fldcaption" value="Prazo" />
+      </field>
+      <field id="departamentos_iddepartamentos">
+        <phrase id="fldcaption" value="Depto Responsavel" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Autorização" />
+      </field>
+      <field id="implementado">
+        <phrase id="fldcaption" value="Implementada?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Pendente" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Em Andamento" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="Concluido" />
+      </field>
+      <field id="eficaz">
+        <phrase id="fldcaption" value="Eficaz?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="graficos">
+      <phrase id="tblcaption" value="Indices/Gráficos" />
+      <phrase id="tblpagecaption1" value="Valolres Gráfico" />
+      <phrase id="tblpagecaption2" value="Observações" />
+      <chart id="evidenciasxmes">
+        <phrase id="chartcaption" value="Evidencias x Mes" />
+        <phrase id="chartxaxisname" value="Mes/Ano" />
+        <phrase id="chartyaxisname" value="Quantidades" />
+      </chart>
+      <field id="idgraficos">
+        <phrase id="fldcaption" value="idgraficos" />
+      </field>
+      <field id="competencia_idcompetencia">
+        <phrase id="fldcaption" value="Competencia" />
+      </field>
+      <field id="indicadores_idindicadores">
+        <phrase id="fldcaption" value="Indicador" />
+      </field>
+      <field id="data_base">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="valor">
+        <phrase id="fldcaption" value="Valor" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observações" />
+      </field>
+    </table>
+    <table id="impacto">
+      <phrase id="tblcaption" value="Severidade" />
+      <field id="idimpacto">
+        <phrase id="fldcaption" value="idimpacto" />
+      </field>
+      <field id="tipo_risco_oportunidade_idtipo_risco_oportunidade">
+        <phrase id="fldcaption" value="Tipo" />
+      </field>
+      <field id="impacto">
+        <phrase id="fldcaption" value="Severidade" />
+      </field>
+      <field id="grau">
+        <phrase id="fldcaption" value="Grau [3,5,7,9]" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observações" />
+      </field>
+    </table>
+    <table id="indicadores">
+      <phrase id="tblcaption" value="Indicadores" />
+      <chart id="evidenciaxmensal">
+        <phrase id="chartcaption" value="Evidencia x Mensal" />
+        <phrase id="chartxaxisname" value="Dt_Cadastro" />
+        <phrase id="chartyaxisname" value="Nome do Indicador" />
+      </chart>
+      <field id="idindicadores">
+        <phrase id="fldcaption" value="IdIndicador" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="indicador">
+        <phrase id="fldcaption" value="Nome do Indicador" />
+        <phrase id="flderrmsg" value="Indicador Já Cadastrado !!!" />
+      </field>
+      <field id="periodicidade_idperiodicidade">
+        <phrase id="fldcaption" value="Periodicidade" />
+      </field>
+      <field id="unidade_medida_idunidade_medida">
+        <phrase id="fldcaption" value="Medida" />
+      </field>
+      <field id="meta">
+        <phrase id="fldcaption" value="Meta" />
+      </field>
+    </table>
+    <table id="item_plano_aud_int">
+      <phrase id="tblcaption" value="Plano" />
+      <field id="iditem_plano_aud_int">
+        <phrase id="fldcaption" value="Item Nr" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="processo_idprocesso">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="escopo">
+        <phrase id="fldcaption" value="Escopo" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Auditor" />
+      </field>
+      <field id="plano_auditoria_int_idplano_auditoria_int">
+        <phrase id="fldcaption" value="Pl Aud Nr" />
+      </field>
+    </table>
+    <table id="item_rel_aud_interna">
+      <phrase id="tblcaption" value="Auditoria Interna" />
+      <field id="iditem_rel_aud_interna">
+        <phrase id="fldcaption" value="Item" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="processo_idprocesso">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="descricao">
+        <phrase id="fldcaption" value="Descrição" />
+      </field>
+      <field id="acao_imediata">
+        <phrase id="fldcaption" value="Ação Imediata" />
+      </field>
+      <field id="acao_contecao">
+        <phrase id="fldcaption" value="Ação de Contenção" />
+      </field>
+      <field id="abrir_nc">
+        <phrase id="fldcaption" value="Abrir NC?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Não" />
+      </field>
+      <field id="relatorio_auditoria_interna_idrelatorio_auditoria_interna">
+        <phrase id="fldcaption" value="Rel Aud Int" />
+      </field>
+    </table>
+    <table id="localizacao">
+      <phrase id="tblcaption" value="Localização Documento" />
+      <field id="idlocalizacao">
+        <phrase id="fldcaption" value="idlocalizacao" />
+      </field>
+      <field id="localizacao">
+        <phrase id="fldcaption" value="Localização" />
+        <phrase id="flderrmsg" value="Já Cadastrado !!!" />
+      </field>
+      <field id="ativo">
+        <phrase id="fldcaption" value="Ativo?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="nao_conformidade">
+      <phrase id="tblcaption" value="Não Conformidade" />
+      <field id="idnao_conformidade">
+        <phrase id="fldcaption" value="IdNC" />
+      </field>
+      <field id="dt_ocorrencia">
+        <phrase id="fldcaption" value="Dt_Ocorrencia" />
+      </field>
+      <field id="tipo">
+        <phrase id="fldcaption" value="Tipo" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Real" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Potencial" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="Op Melhoria" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo" />
+        <phrase id="flderrmsg" value="Titulo já Cadastrado !!!" />
+      </field>
+      <field id="processo_idprocesso">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="ocorrencia">
+        <phrase id="fldcaption" value="Descreva Ocorrencia" />
+      </field>
+      <field id="origem_risco_oportunidade_idorigem_risco_oportunidade">
+        <phrase id="fldcaption" value="Origem" />
+      </field>
+      <field id="acao_imediata">
+        <phrase id="fldcaption" value="Ação Imediata" />
+      </field>
+      <field id="causa_raiz">
+        <phrase id="fldcaption" value="Causa Raiz" />
+      </field>
+      <field id="departamentos_iddepartamentos">
+        <phrase id="fldcaption" value="Resp Aprovação" />
+      </field>
+      <field id="anexo">
+        <phrase id="fldcaption" value="Anexo" />
+      </field>
+      <field id="status_nc">
+        <phrase id="fldcaption" value="Status" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Pendente" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Em Andamento" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="Concluida" />
+      </field>
+      <field id="plano_acao">
+        <phrase id="fldcaption" value="Plano Ação?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="objetivo_qualidade">
+      <phrase id="tblcaption" value="Objetivos da Qualidade" />
+      <field id="idobjetivo_qualidade">
+        <phrase id="fldcaption" value="idobjetivo qualidade" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="processo_idprocesso">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="objetivo">
+        <phrase id="fldcaption" value="Objetivos" />
+      </field>
+      <field id="como_medir">
+        <phrase id="fldcaption" value="Como Medir?" />
+      </field>
+      <field id="o_q_sera_feito">
+        <phrase id="fldcaption" value="O que Será Feito" />
+      </field>
+      <field id="como_avaliar">
+        <phrase id="fldcaption" value="Como Avaliar?" />
+      </field>
+      <field id="departamentos_iddepartamentos">
+        <phrase id="fldcaption" value="Responsável" />
+      </field>
+    </table>
+    <table id="origem_risco_oportunidade">
+      <phrase id="tblcaption" value="Origem [Risco/Oportunidade]" />
+      <field id="idorigem_risco_oportunidade">
+        <phrase id="fldcaption" value="idorigem risco oportunidade" />
+      </field>
+      <field id="origem">
+        <phrase id="fldcaption" value="Origem" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observações" />
+      </field>
+    </table>
+    <table id="periodicidade">
+      <phrase id="tblcaption" value="Periodicidade" />
+      <field id="idperiodicidade">
+        <phrase id="fldcaption" value="idperiodicidade" />
+      </field>
+      <field id="periodicidade">
+        <phrase id="fldcaption" value="Periodicidade " />
+      </field>
+    </table>
+    <table id="plano_acao">
+      <phrase id="tblcaption" value="Plano de Ação" />
+      <field id="idplano_acao">
+        <phrase id="fldcaption" value="IdPlROp" />
+      </field>
+      <field id="risco_oportunidade_idrisco_oportunidade">
+        <phrase id="fldcaption" value="Titulo" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="o_q_sera_feito">
+        <phrase id="fldcaption" value="O que Será Feito?" />
+      </field>
+      <field id="efeito_esperado">
+        <phrase id="fldcaption" value="Efeito Esperado" />
+      </field>
+      <field id="departamentos_iddepartamentos">
+        <phrase id="fldcaption" value="Quem Fara?" />
+      </field>
+      <field id="origem_risco_oportunidade_idorigem_risco_oportunidade">
+        <phrase id="fldcaption" value="Origem" />
+      </field>
+      <field id="recursos_nec">
+        <phrase id="fldcaption" value="Recursos R$" />
+      </field>
+      <field id="dt_limite">
+        <phrase id="fldcaption" value="Dt_Limite" />
+      </field>
+      <field id="implementado">
+        <phrase id="fldcaption" value="Implementado?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="periodicidade_idperiodicidade">
+        <phrase id="fldcaption" value="Reavaliação" />
+      </field>
+      <field id="eficaz">
+        <phrase id="fldcaption" value="Eficaz?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="plano_acao_nc">
+      <phrase id="tblcaption" value="Plano de Ação" />
+      <phrase id="tblpagecaption1" value="Plano Ação" />
+      <phrase id="tblpagecaption2" value="Eficaz/Evidencia" />
+      <field id="idplano_acao_nc">
+        <phrase id="fldcaption" value="IdPlNC" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="nao_conformidade_idnao_conformidade">
+        <phrase id="fldcaption" value="Titulo" />
+      </field>
+      <field id="o_q_sera_feito">
+        <phrase id="fldcaption" value="O que Será Feito?" />
+      </field>
+      <field id="efeito_esperado">
+        <phrase id="fldcaption" value="Porque será Feito?" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Quem Fará:" />
+      </field>
+      <field id="recursos_nec">
+        <phrase id="fldcaption" value="Recrusos R$" />
+      </field>
+      <field id="dt_limite">
+        <phrase id="fldcaption" value="Dt_Limite" />
+      </field>
+      <field id="implementado">
+        <phrase id="fldcaption" value="Implementado?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="eficaz">
+        <phrase id="fldcaption" value="Eficaz?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="evidencia">
+        <phrase id="fldcaption" value="Evidencia" />
+      </field>
+    </table>
+    <table id="plano_auditoria_int">
+      <phrase id="tblcaption" value="Plano Aud Int" />
+      <field id="idplano_auditoria_int">
+        <phrase id="fldcaption" value="Pl Aud Nr" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Auditor Lider" />
+      </field>
+      <field id="criterio">
+        <phrase id="fldcaption" value="Critério" />
+      </field>
+      <field id="arquivo">
+        <phrase id="fldcaption" value="Arquivo" />
+      </field>
+    </table>
+    <table id="processo">
+      <phrase id="tblcaption" value="Processos" />
+      <phrase id="tblpagecaption1" value="Objetivos do Processo/Atividade" />
+      <phrase id="tblpagecaption2" value="Entradas" />
+      <phrase id="tblpagecaption3" value="Atv Principal/Saídas" />
+      <phrase id="tblpagecaption4" value="Riscos e Oportunidades" />
+      <phrase id="tblpagecaption5" value="Propriedade Ext/Conhecimentos" />
+      <phrase id="tblpagecaption6" value="Anexos" />
+      <field id="idprocesso">
+        <phrase id="fldcaption" value="idprocesso" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Revisado Em:" />
+      </field>
+      <field id="revisao">
+        <phrase id="fldcaption" value="Rev Nr" />
+      </field>
+      <field id="tipo_idtipo">
+        <phrase id="fldcaption" value="Tipo" />
+      </field>
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo/Atividade" />
+        <phrase id="flderrmsg" value="Processo Já Cadastrado !!!" />
+      </field>
+      <field id="responsaveis">
+        <phrase id="fldcaption" value="Responsaveis" />
+      </field>
+      <field id="objetivo">
+        <phrase id="fldcaption" value="Objetivos" />
+      </field>
+      <field id="proc_antes">
+        <phrase id="fldcaption" value="Processo Anterior" />
+      </field>
+      <field id="proc_depois">
+        <phrase id="fldcaption" value="Processo Posterior" />
+      </field>
+      <field id="eqpto_recursos">
+        <phrase id="fldcaption" value="Equipamentos e Recursos" />
+      </field>
+      <field id="entradas">
+        <phrase id="fldcaption" value="Entradas" />
+      </field>
+      <field id="atividade_principal">
+        <phrase id="fldcaption" value="Atividades Principal" />
+      </field>
+      <field id="saidas_resultados">
+        <phrase id="fldcaption" value="Saídas/Resultados" />
+      </field>
+      <field id="requsito_saidas">
+        <phrase id="fldcaption" value="Requisitos de Saída" />
+      </field>
+      <field id="riscos">
+        <phrase id="fldcaption" value="Riscos" />
+      </field>
+      <field id="oportunidades">
+        <phrase id="fldcaption" value="Oportunidades" />
+      </field>
+      <field id="propriedade_externa">
+        <phrase id="fldcaption" value="Propriedade Externa" />
+      </field>
+      <field id="conhecimentos">
+        <phrase id="fldcaption" value="Conhecimentos" />
+      </field>
+      <field id="documentos_aplicados">
+        <phrase id="fldcaption" value="Documentos Aplicados" />
+      </field>
+      <field id="proced_int_trabalho">
+        <phrase id="fldcaption" value="Procedimento/Inst Trabalho" />
+      </field>
+      <field id="mapa">
+        <phrase id="fldcaption" value="Mapeamento" />
+      </field>
+      <field id="formulario">
+        <phrase id="fldcaption" value="Formulário(s)" />
+      </field>
+    </table>
+    <table id="processo_indicadores">
+      <phrase id="tblcaption" value="Indicadores" />
+      <field id="idprocesso_indicadores">
+        <phrase id="fldcaption" value="idprocesso indicadores" />
+      </field>
+      <field id="processo_idprocesso">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="indicadores_idindicadores">
+        <phrase id="fldcaption" value="Indicador" />
+      </field>
+    </table>
+    <table id="rel_analise_swot">
+      <phrase id="tblcaption" value="Analise de Swot" />
+      <field id="idanalise_swot">
+        <phrase id="fldcaption" value="idanalise swot" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="fatores">
+        <phrase id="fldcaption" value="Fatores Int/Ext" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Fatores Internos" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Fatores Externos" />
+      </field>
+      <field id="ponto">
+        <phrase id="fldcaption" value="Pontos" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Ponto Forte" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Ponto Fraco" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="Oportunidade" />
+        <phrase id="fldtagvalue4" value="4" />
+        <phrase id="fldtagcaption4" value="Ameaça" />
+      </field>
+      <field id="analise">
+        <phrase id="fldcaption" value="Detalhar" />
+      </field>
+      <field id="impacto_idimpacto">
+        <phrase id="fldcaption" value="Severidade" />
+      </field>
+      <field id="contexto_idcontexto">
+        <phrase id="fldcaption" value="Contexto -&gt; ANO" />
+      </field>
+    </table>
+    <table id="rel_cross_grafico">
+      <phrase id="tblcaption" value="Indicadores Gráficos" />
+      <chart id="evidenciaxmensal">
+        <phrase id="chartcaption" value="Evidencia x Mensal" />
+        <phrase id="chartxaxisname" value="M e s" />
+        <phrase id="chartyaxisname" value="Quantidade" />
+      </chart>
+      <field id="idgraficos">
+        <phrase id="fldcaption" value="idgraficos" />
+      </field>
+      <field id="competencia_idcompetencia">
+        <phrase id="fldcaption" value="Competencia" />
+      </field>
+      <field id="indicadores_idindicadores">
+        <phrase id="fldcaption" value="Indicador" />
+      </field>
+      <field id="data_base">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="valor">
+        <phrase id="fldcaption" value="Valor" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observações" />
+      </field>
+    </table>
+    <table id="rel_processo_indicador">
+      <phrase id="tblcaption" value="Processos x Indicadores" />
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+        <phrase id="flderrmsg" value="Processo Já Cadastrado !!!" />
+      </field>
+      <field id="indicador">
+        <phrase id="fldcaption" value="Nome do Indicador" />
+        <phrase id="flderrmsg" value="Indicador Já Cadastrado !!!" />
+      </field>
+      <field id="periodicidade">
+        <phrase id="fldcaption" value="Periodicidade " />
+      </field>
+      <field id="unidade">
+        <phrase id="fldcaption" value="Medida" />
+      </field>
+      <field id="meta">
+        <phrase id="fldcaption" value="Meta" />
+      </field>
+    </table>
+    <table id="rel_processos">
+      <phrase id="tblcaption" value="Processos Existentes" />
+      <field id="idprocesso">
+        <phrase id="fldcaption" value="idprocesso" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+        <phrase id="flderrmsg" value="Processo Já Cadastrado !!!" />
+      </field>
+      <field id="responsaveis">
+        <phrase id="fldcaption" value="Responsaveis" />
+      </field>
+      <field id="objetivo">
+        <phrase id="fldcaption" value="Objetivos" />
+      </field>
+      <field id="eqpto_recursos">
+        <phrase id="fldcaption" value="Equipamentos e Recursos" />
+      </field>
+      <field id="entradas">
+        <phrase id="fldcaption" value="Entradas" />
+      </field>
+      <field id="atividade_principal">
+        <phrase id="fldcaption" value="Atividades Principal" />
+      </field>
+      <field id="saidas_resultados">
+        <phrase id="fldcaption" value="Saídas/Resultados" />
+      </field>
+      <field id="requsito_saidas">
+        <phrase id="fldcaption" value="Requisitos de Saída" />
+      </field>
+      <field id="riscos">
+        <phrase id="fldcaption" value="Riscos" />
+      </field>
+      <field id="oportunidades">
+        <phrase id="fldcaption" value="Oportunidades" />
+      </field>
+      <field id="propriedade_externa">
+        <phrase id="fldcaption" value="Propriedade Externa" />
+      </field>
+      <field id="conhecimentos">
+        <phrase id="fldcaption" value="Conhecimentos" />
+      </field>
+      <field id="documentos_aplicados">
+        <phrase id="fldcaption" value="Documentos Aplicados" />
+      </field>
+      <field id="tipo_idtipo">
+        <phrase id="fldcaption" value="tipo idtipo" />
+      </field>
+      <field id="proced_int_trabalho">
+        <phrase id="fldcaption" value="proced int trabalho" />
+      </field>
+      <field id="mapa">
+        <phrase id="fldcaption" value="mapa" />
+      </field>
+      <field id="revisao">
+        <phrase id="fldcaption" value="revisao" />
+      </field>
+      <field id="proc_antes">
+        <phrase id="fldcaption" value="proc antes" />
+      </field>
+      <field id="proc_depois">
+        <phrase id="fldcaption" value="proc depois" />
+      </field>
+      <field id="formulario">
+        <phrase id="fldcaption" value="formulario" />
+      </field>
+    </table>
+    <table id="rel_view_aud_interna">
+      <phrase id="tblcaption" value="Relatorio de Auditoria Interna" />
+      <field id="plano_nr">
+        <phrase id="fldcaption" value="Pl Aud Nr" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="auditor_lider">
+        <phrase id="fldcaption" value="Auditor Lider" />
+      </field>
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="auditor">
+        <phrase id="fldcaption" value="Auditor" />
+      </field>
+      <field id="metodo">
+        <phrase id="fldcaption" value="Metodo" />
+        <phrase id="fldtagvalue1" value="Analise Doc" />
+        <phrase id="fldtagcaption1" value="Analise Doc" />
+        <phrase id="fldtagvalue2" value="Evidencia" />
+        <phrase id="fldtagcaption2" value="Evidencia" />
+        <phrase id="fldtagvalue3" value="Entrevista" />
+        <phrase id="fldtagcaption3" value="Entrevista" />
+      </field>
+      <field id="escopo">
+        <phrase id="fldcaption" value="Escopo" />
+      </field>
+      <field id="descricao">
+        <phrase id="fldcaption" value="Descrição" />
+      </field>
+      <field id="evidencia">
+        <phrase id="fldcaption" value="Evidencia" />
+      </field>
+      <field id="nao_conformidade">
+        <phrase id="fldcaption" value="Abrir NC?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="item">
+        <phrase id="fldcaption" value="item" />
+      </field>
+    </table>
+    <table id="rel_view_plano_auditoria">
+      <phrase id="tblcaption" value="Plano Auditoria Interna" />
+      <field id="idplano_auditoria_int">
+        <phrase id="fldcaption" value="Plano Nr" />
+      </field>
+      <field id="audlider">
+        <phrase id="fldcaption" value="Auditor Lider" />
+      </field>
+      <field id="criterio">
+        <phrase id="fldcaption" value="Critérios" />
+      </field>
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="auditor">
+        <phrase id="fldcaption" value="Auditor" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="escopo">
+        <phrase id="fldcaption" value="Escopo" />
+      </field>
+      <field id="iditem_plano_aud_int">
+        <phrase id="fldcaption" value="Item" />
+      </field>
+    </table>
+    <table id="relatorio_aud_int">
+      <phrase id="tblcaption" value="Relatorio" />
+      <field id="idrelatorio_aud_int">
+        <phrase id="fldcaption" value="idrelatorio aud int" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Cadastrado Em:" />
+      </field>
+      <field id="plano_auditoria_int_idplano_auditoria_int">
+        <phrase id="fldcaption" value="Plano Nr" />
+      </field>
+      <field id="item_plano_aud_int_iditem_plano_aud_int">
+        <phrase id="fldcaption" value="Item" />
+        <phrase id="flderrmsg" value="Item do Plano Já Cadastrado !!!" />
+      </field>
+      <field id="metodo">
+        <phrase id="fldcaption" value="Método" />
+        <phrase id="fldtagvalue1" value="Analise Doc" />
+        <phrase id="fldtagcaption1" value="Analise Doc" />
+        <phrase id="fldtagvalue2" value="Evidencia" />
+        <phrase id="fldtagcaption2" value="Evidencia" />
+        <phrase id="fldtagvalue3" value="Entrevista" />
+        <phrase id="fldtagcaption3" value="Entrevista" />
+      </field>
+      <field id="descricao">
+        <phrase id="fldcaption" value="Descrição" />
+      </field>
+      <field id="evidencia">
+        <phrase id="fldcaption" value="Evidência" />
+      </field>
+      <field id="nao_conformidade">
+        <phrase id="fldcaption" value="Abrir NC?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="relatorio_auditoria_interna">
+      <phrase id="tblcaption" value="Auditoria Interna" />
+      <field id="idrelatorio_auditoria_interna">
+        <phrase id="fldcaption" value="AudInt Nr" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="origem_risco_oportunidade_idorigem_risco_oportunidade">
+        <phrase id="fldcaption" value="Origem" />
+      </field>
+      <field id="auditor">
+        <phrase id="fldcaption" value="Auditor Lider" />
+      </field>
+      <field id="aprovador">
+        <phrase id="fldcaption" value="Aprovador" />
+      </field>
+    </table>
+    <table id="revisao_documento">
+      <phrase id="tblcaption" value="Revisão" />
+      <field id="idrevisao_documento">
+        <phrase id="fldcaption" value="idrevisao documento" />
+      </field>
+      <field id="documento_interno_iddocumento_interno">
+        <phrase id="fldcaption" value="Doc Interno" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Elaborado Em:" />
+      </field>
+      <field id="qual_alteracao">
+        <phrase id="fldcaption" value="Descreva Modificação" />
+      </field>
+      <field id="status_documento_idstatus_documento">
+        <phrase id="fldcaption" value="Status Doc" />
+      </field>
+      <field id="revisao_nr">
+        <phrase id="fldcaption" value="Revisão Nr" />
+      </field>
+      <field id="usuario_elaborador">
+        <phrase id="fldcaption" value="Elaborado Por:" />
+      </field>
+      <field id="usuario_aprovador">
+        <phrase id="fldcaption" value="Aprovado Por:" />
+      </field>
+      <field id="dt_aprovacao">
+        <phrase id="fldcaption" value="Aprovado Em:" />
+      </field>
+      <field id="anexo">
+        <phrase id="fldcaption" value="Anexo" />
+      </field>
+    </table>
+    <table id="risco_oportunidade">
+      <phrase id="tblcaption" value="Gestão Risco ou Oportunidade" />
+      <chart id="severidade">
+        <phrase id="chartcaption" value="Severidade" />
+        <phrase id="chartxaxisname" value="Severidade" />
+        <phrase id="chartyaxisname" value="Severidade" />
+      </chart>
+      <chart id="grauatencao">
+        <phrase id="chartcaption" value="Grau Atenção" />
+        <phrase id="chartxaxisname" value="Grau Atenção" />
+        <phrase id="chartyaxisname" value="Contagem" />
+      </chart>
+      <field id="idrisco_oportunidade">
+        <phrase id="fldcaption" value="IdRiscoOp" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="tipo_risco_oportunidade_idtipo_risco_oportunidade">
+        <phrase id="fldcaption" value="Tipo" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo" />
+        <phrase id="flderrmsg" value="Titulo já Cadastrado !!!" />
+      </field>
+      <field id="origem_risco_oportunidade_idorigem_risco_oportunidade">
+        <phrase id="fldcaption" value="Origem" />
+      </field>
+      <field id="descricao">
+        <phrase id="fldcaption" value="Descrever Risco ou Oportunidade" />
+      </field>
+      <field id="consequencia">
+        <phrase id="fldcaption" value="Consequencias" />
+      </field>
+      <field id="frequencia_idfrequencia">
+        <phrase id="fldcaption" value="Frequencia" />
+      </field>
+      <field id="impacto_idimpacto">
+        <phrase id="fldcaption" value="Severidade" />
+      </field>
+      <field id="grau_atencao">
+        <phrase id="fldcaption" value="Grau Atenção" />
+      </field>
+      <field id="acao_risco_oportunidade_idacao_risco_oportunidade">
+        <phrase id="fldcaption" value="Ação" />
+      </field>
+      <field id="plano_acao">
+        <phrase id="fldcaption" value="Plano Ação?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="status_acao">
+      <phrase id="tblcaption" value="Status da Ação" />
+      <field id="idstatus_acao">
+        <phrase id="fldcaption" value="idstatus acao" />
+      </field>
+      <field id="status_acao">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+    </table>
+    <table id="status_documento">
+      <phrase id="tblcaption" value="Status Documento" />
+      <field id="idstatus_documento">
+        <phrase id="fldcaption" value="idstatus documento" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+        <phrase id="flderrmsg" value="Já Cadastrado !!!" />
+      </field>
+    </table>
+    <table id="tipo">
+      <phrase id="tblcaption" value="Tipo" />
+      <field id="idtipo">
+        <phrase id="fldcaption" value="idtipo" />
+      </field>
+      <field id="tipo">
+        <phrase id="fldcaption" value="Tipo" />
+      </field>
+    </table>
+    <table id="tipo_risco_oportunidade">
+      <phrase id="tblcaption" value="Tipo Risco/Oportunidade" />
+      <field id="idtipo_risco_oportunidade">
+        <phrase id="fldcaption" value="idtipo risco oportunidade" />
+      </field>
+      <field id="tipo_risco_oportunidade">
+        <phrase id="fldcaption" value="Tipo Risco/Oportunidade" />
+      </field>
+    </table>
+    <table id="unidade_medida">
+      <phrase id="tblcaption" value="Unidade de Medida" />
+      <field id="idunidade_medida">
+        <phrase id="fldcaption" value="idunidade medida" />
+      </field>
+      <field id="unidade">
+        <phrase id="fldcaption" value="Unidade" />
+      </field>
+    </table>
+    <table id="userlevelpermissions">
+      <phrase id="tblcaption" value="Tabelas de Permissões" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="User Level ID" />
+      </field>
+      <field id="_tablename">
+        <phrase id="fldcaption" value="Table Name" />
+      </field>
+      <field id="_permission">
+        <phrase id="fldcaption" value="Permission" />
+      </field>
+    </table>
+    <table id="userlevels">
+      <phrase id="tblcaption" value="Usuários/Permissões" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="User Level ID" />
+      </field>
+      <field id="userlevelname">
+        <phrase id="fldcaption" value="User Level Name" />
+      </field>
+    </table>
+    <table id="usuario">
+      <phrase id="tblcaption" value="Usuários" />
+      <field id="idusuario">
+        <phrase id="fldcaption" value="idusuario" />
+      </field>
+      <field id="nome">
+        <phrase id="fldcaption" value="Nome/Sobrenome" />
+      </field>
+      <field id="_login">
+        <phrase id="fldcaption" value="Login" />
+      </field>
+      <field id="senha">
+        <phrase id="fldcaption" value="Senha" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="ativo">
+        <phrase id="fldcaption" value="Ativo?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="view_plano_auditoria">
+      <phrase id="tblcaption" value="view plano auditoria" />
+      <field id="idplano_auditoria_int">
+        <phrase id="fldcaption" value="Plano Nr" />
+      </field>
+      <field id="audlider">
+        <phrase id="fldcaption" value="Auditor Lider" />
+      </field>
+      <field id="criterio">
+        <phrase id="fldcaption" value="Critérios" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="auditor">
+        <phrase id="fldcaption" value="Auditor" />
+      </field>
+      <field id="escopo">
+        <phrase id="fldcaption" value="Escopo" />
+      </field>
+      <field id="iditem_plano_aud_int">
+        <phrase id="fldcaption" value="Item" />
+      </field>
+    </table>
+    <table id="view_processo_indicador">
+      <phrase id="tblcaption" value="view processo indicador" />
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+        <phrase id="flderrmsg" value="Processo Já Cadastrado !!!" />
+      </field>
+      <field id="indicador">
+        <phrase id="fldcaption" value="Nome do Indicador" />
+        <phrase id="flderrmsg" value="Indicador Já Cadastrado !!!" />
+      </field>
+      <field id="periodicidade">
+        <phrase id="fldcaption" value="Periodicidade " />
+      </field>
+      <field id="unidade">
+        <phrase id="fldcaption" value="Medida" />
+      </field>
+      <field id="meta">
+        <phrase id="fldcaption" value="Meta" />
+      </field>
+    </table>
+    <table id="view_relatoria_auditoria">
+      <phrase id="tblcaption" value="view relatorio aud int" />
+      <field id="plano_nr">
+        <phrase id="fldcaption" value="plano nr" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="data" />
+      </field>
+      <field id="auditor_lider">
+        <phrase id="fldcaption" value="auditor lider" />
+      </field>
+      <field id="processo">
+        <phrase id="fldcaption" value="processo" />
+      </field>
+      <field id="escopo">
+        <phrase id="fldcaption" value="escopo" />
+      </field>
+      <field id="auditor">
+        <phrase id="fldcaption" value="auditor" />
+      </field>
+      <field id="item">
+        <phrase id="fldcaption" value="item" />
+      </field>
+      <field id="descricao">
+        <phrase id="fldcaption" value="descricao" />
+      </field>
+      <field id="evidencia">
+        <phrase id="fldcaption" value="evidencia" />
+      </field>
+      <field id="nao_conformidade">
+        <phrase id="fldcaption" value="nao conformidade" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="metodo">
+        <phrase id="fldcaption" value="metodo" />
+        <phrase id="fldtagvalue1" value="Analise Doc" />
+        <phrase id="fldtagcaption1" value="Analise Doc" />
+        <phrase id="fldtagvalue2" value="Evidencia" />
+        <phrase id="fldtagcaption2" value="Evidencia" />
+        <phrase id="fldtagvalue3" value="Entrevista" />
+        <phrase id="fldtagcaption3" value="Entrevista" />
+      </field>
+    </table>
+  </project>
+</ew-language>

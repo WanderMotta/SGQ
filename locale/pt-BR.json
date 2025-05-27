@@ -1,0 +1,15 @@
+{
+  "id": "pt-BR",
+  "desc": "português (Brasil)",
+  "number": "#,##0.###",
+  "currency": "¤ #,##0.00",
+  "currency_code": "BRL",
+  "currency_symbol": null,
+  "percent": "#,##0%",
+  "decimal_separator": ",",
+  "grouping_separator": ".",
+  "numbering_system": null,
+  "date": "dd/MM/y",
+  "time": "HH:mm",
+  "time_zone": "America/Sao_Paulo"
+}

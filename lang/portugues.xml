@@ -1,0 +1,2721 @@
+<?xml version="1.0"?>
+<ew-language version="19.0.0" id="pt-BR" name="Português (BR)" desc="Português (BR)" author="Geraldo Junior" date="2023/8/4">
+  <!--
+    IMPORTANT NOTES:
+    1. Language ID must be RFC 4646 language tags (which use hyphen, not underscore), e.g. en-US, fr-CA, fr-FR,
+    2. Requires PHP Internationalization extension (Intl), see https://www.php.net/manual/en/book.intl.php,
+    3. Locale files are NOT used unless you save customized settings of a locale in the project.
+-->
+  <global>
+    <phrase id="2fadisabled" value="Autenticação de dois fatores desativada" />
+    <!-- v2022 -->
+    <phrase id="2faenabled" value="Autenticação de dois fatores ativada" />
+    <!-- v2022 -->
+    <phrase id="2faresetfailed" value="Falha para desativar a autenticação de dois fatores" />
+    <!-- v2022 -->
+    <phrase id="2faverificationfailed" value="Falha na verificação de dois fatores" />
+    <!-- v2022 -->
+    <phrase id="accept" value="Aceito" />
+    <!-- v2019 -->
+    <phrase id="actiondeleted" value="Deletado" />
+    <phrase id="actioninserted" value="Inserido" />
+    <phrase id="actioninsertedgridadd" value="Inserir (Grade-Adicionar)" />
+    <phrase id="actionupdated" value="Atualizar" />
+    <phrase id="actionupdatedgridedit" value="Atualizar (Grade-Editar)" />
+    <phrase id="actionupdatedmultiupdate" value="Atualizar (Multi-Atualização)" />
+    <phrase id="activateaccount" value="Sua conta está ativa" />
+    <phrase id="activatefailed" value="Falha na ativação" />
+    <phrase id="add" value="Adicionar" />
+    <phrase id="addblankrow" value="Adicionar linha em branco" class="fa-solid fa-plus ew-icon" />
+    <!-- v2023 -->
+    <phrase id="addbtn" value="Adicionar" />
+    <!-- v2018 -->
+    <phrase id="addevent" value="Adicionar Evento" />
+    <!-- v2023 -->
+    <phrase id="addlink" value="Adicionar" class="fa-solid fa-plus ew-icon" />
+    <!-- v2023 -->
+    <phrase id="addmasterdetaillink" value="Master/Detail Adicionar" class="icon-md-add ew-icon" />
+    <!-- v11 -->
+    <phrase id="addsuccess" value="Adicionado com sucesso" />
+    <phrase id="advancedsearch" value="Busca Avançada" class="icon-advanced-search ew-icon" />
+    <!-- v2023 -->
+    <phrase id="aggregatecolon" value=": " />
+    <!-- v2020 -->
+    <phrase id="aggregateequal" value="=" />
+    <!-- v2020 -->
+    <phrase id="allrecords" value="Todos" />
+    <phrase id="allword" value="Todas as Palavras" />
+    <phrase id="anyword" value="Qualquer Palavra" />
+    <phrase id="apititle" value="REST API" />
+    <!-- v2021 -->
+    <phrase id="audittrailautologin" value="autologin" />
+    <phrase id="audittrailfailedattempt" value="Falha na tentativa: %n" />
+    <phrase id="audittrailuserloggedin" value="usuário já logado in" />
+    <phrase id="audittrailpasswordexpired" value="senha expirada" />
+    <phrase id="audittraillogin" value="login" />
+    <phrase id="audittraillogout" value="logout" />
+    <phrase id="autologinfailed" value="Falha no Auto login" />
+    <!-- v2018 -->
+    <phrase id="average" value="Média" />
+    <phrase id="backtolist" value="Voltar para Lista" />
+    <phrase id="backtologin" value="Voltar para pagina de Login" />
+    <phrase id="backtomasterrecordpage" value="Voltar para tabela principal" />
+    <phrase id="backupcodes" value="Backup codigos (2FA)" />
+    <!-- v2022 -->
+    <phrase id="backupcodesmsg" value="Salve seus códigos de backup em algum lugar seguro, mas acessível. Você só pode usar cada código de backup uma vez." />
+    <!-- v2022 -->
+    <phrase id="basicsearchkeyword" value="Pesquisar palavra-chave" />
+    <!-- v2023 -->
+    <phrase id="batchdeletebegin" value="*** Início da exclusão do lote ***" />
+    <phrase id="batchdeleterollback" value="*** Reversão de exclusão em lote ***" />
+    <phrase id="batchdeletesuccess" value="*** Exclusão em lote bem-sucedida ***" />
+    <phrase id="batchinsertbegin" value="*** Inserção de lote começar ***" />
+    <phrase id="batchinsertrollback" value="*** Reversão de inserção em lote ***" />
+    <phrase id="batchinsertsuccess" value="*** Inserção em lote bem-sucedida ***" />
+    <phrase id="batchupdatebegin" value="*** Início da atualização do lote ***" />
+    <phrase id="batchupdaterollback" value="*** Reversão de atualização em lote ***" />
+    <phrase id="batchupdatesuccess" value="*** Atualização em lote bem-sucedida ***" />
+    <phrase id="blankoptiontext" value="&amp;nbsp;" />
+    <!-- v2022 -->
+    <phrase id="booleanno" value="Não" />
+    <!-- v2020 -->
+    <phrase id="booleanyes" value="Sim" />
+    <!-- v2020 -->
+    <phrase id="buttonactions" value="Ação" class="fa-solid fa-bars ew-icon" />
+    <!-- v2023 -->
+    <phrase id="buttonaddedit" value="Adicionar/Editar" class="icon-addedit ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttondetails" value="Master/Detail" class="icon-master-detail ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttonexport" value="Exportar" class="fa-solid fa-download ew-icon" />
+    <!-- v2023 -->
+    <phrase id="buttonlistoptions" value="Opções" class="fa-solid fa-bars ew-icon" />
+    <!-- v2023 -->
+    <phrase id="buttonlistoptionscard" value="Opções" class="fa-solid fa-ellipsis-vertical ew-icon" />
+    <!-- v2023 -->
+    <phrase id="buttonsearch" value="Procurar" class="fa-solid fa-magnifying-glass ew-icon" />
+    <!-- v2023 -->
+    <phrase id="cancelbtn" value="Cancelar" />
+    <!-- v2017 -->
+    <phrase id="cancellink" value="Cancelar" class="fa-solid fa-times ew-icon" />
+    <!-- v2023 -->
+    <phrase id="changepassword" value="Configurar Senha" />
+    <!-- v2020 -->
+    <phrase id="changepasswordmessage" value="Configurar Senha" />
+    <!-- v2019 -->
+    <phrase id="changepasswordpage" value="Configurar Senha" />
+    <phrase id="changepasswordbtn" value="Escolher" />
+    <phrase id="chartexporterror1" value="Não foi possível obter %t imagem de %e" />
+    <!-- v2023 -->
+    <phrase id="chartexporterror2" value="Nome do arquivo ausente" />
+    <!-- v2023 -->
+    <phrase id="chartexporterror3" value="Pasta de Upload não existe" />
+    <!-- v2023 -->
+    <phrase id="chartexporterror4" value="Pasta Upload não pode ser gravada" />
+    <!-- v2023 -->
+    <phrase id="chartorder" value="Ordenar por" />
+    <!-- v2020 -->
+    <phrase id="chartorderxasc" value="Rótulos Crescente" />
+    <!-- v2020 -->
+    <phrase id="chartorderxdesc" value="Rótulos Decrescente" />
+    <!-- v2020 -->
+    <phrase id="chartorderyasc" value="Valores Crescente" />
+    <!-- v2020 -->
+    <phrase id="chartorderydesc" value="Valores Decrescente" />
+    <!-- v2020 -->
+    <phrase id="choosefilebtn" value="Escolha..." />
+    <!-- v11 -->
+    <phrase id="choosefile" value="Solte o arquivo aqui ou clique para fazer upload" />
+    <!-- v2022 -->
+    <phrase id="choosefiles" value="Solte o arquivo aqui ou clique para fazer upload" />
+    <!-- v2022 -->
+    <phrase id="clear" value="Limpar" />
+    <!-- v2022 -->
+    <phrase id="clickrecaptcha" value="Por favor click na caixa reCAPTCHA" />
+    <!-- v12 -->
+    <phrase id="clicktodrilldown" value="Click para detalhar" />
+    <!-- v2020 -->
+    <phrase id="closeaccountbtn" value="Apagar dados e fechar minha conta" />
+    <!-- v2019 -->
+    <phrase id="closebtn" value="Fechar" />
+    <!-- v2017 -->
+    <phrase id="columns" value="Colunas" class="fa-solid fa-table-columns ew-icon" />
+    <!-- v2023 -->
+    <phrase id="confirm" value="Confirmar" />
+    <phrase id="confirmbtn" value="Confirmar" />
+    <!-- v2017 -->
+    <phrase id="confirmcancel" value="Você deseja cancelar?" />
+    <!-- v12 -->
+    <phrase id="confirmpassword" value="Confirmar Senha" />
+    <!-- v2021 -->
+    <phrase id="conflictcancellink" value="Cancelar" />
+    <phrase id="cookieconsenttitle" value="Cookies" />
+    <!-- v2021 -->
+    <phrase id="cookieconsentsummary" value="Use esse espaço para sumarizar sua privacidade e politica de uso de cookies." />
+    <!-- v2021 -->
+    <phrase id="copy" value="Copiar" />
+    <phrase id="copylink" value="Copiar" class="fa-regular fa-copy ew-icon" />
+    <!-- v2023 -->
+    <phrase id="copytoclipboard" value="Copiar para área de transferência" />
+    <!-- v2022 -->
+    <phrase id="copiedtoclipboard" value="Copiado para área de transferência" />
+    <!-- v2022 -->
+    <phrase id="count" value="Contar" />
+    <phrase id="countselected" value="%s selecionado" />
+    <!-- v12 -->
+    <phrase id="crop" value="Crop" />
+    <!-- v2023 -->
+    <phrase id="crosstabsummary" value="Sumario" />
+    <!-- v2023 -->
+    <phrase id="currentfilters" value="Filtros Atuais:" />
+    <!-- v2020 -->
+    <phrase id="currentpassword" value="Senha Atual: " />
+    <!-- v12 -->
+    <phrase id="customactioncompleted" value="'%s' completo" />
+    <phrase id="customactioncancelled" value="'%s' cancelado" />
+    <phrase id="customactionfailed" value="'%s' falha" />
+    <!-- v12 -->
+    <phrase id="customactionnotallowed" value="'%s' não permitido" />
+    <!-- v12 -->
+    <phrase id="customview" value="VISUALIZAÇÃO PERSONALIZADA" />
+    <phrase id="danger" value="Erro" />
+    <!-- v2020 -->
+    <phrase id="debug" value="Debug" />
+    <!-- v2021 -->
+    <phrase id="delete" value="Delete" />
+    <phrase id="deletebtn" value="Delete" />
+    <phrase id="deletecancelled" value="Delete cancelado" />
+    <phrase id="deleteconfirm" value="Você está certo que deseja deletar?" />
+    <!-- v2023 -->
+    <phrase id="deleteeventconfirm" value="Você está certo de que deseja cancelar esse evento?" />
+    <!-- v2023 -->
+    <phrase id="deletefailed" value="Falha para deletar registros(s)" />
+    <!-- v2023 -->
+    <phrase id="deletefilter" value="Deletar filtros" />
+    <!-- v12 -->
+    <phrase id="deletefilterconfirm" value="Deletar filtros %s?" />
+    <!-- v12 -->
+    <phrase id="deletelink" value="Deletar" class="fa-solid fa-trash ew-icon" />
+    <!-- v2023 -->
+    <phrase id="deleteselectedlink" value="Deletar Registro Selecionado" class="fa-solid fa-trash ew-icon" />
+    <!-- v2023 -->
+    <phrase id="deleterecordsfailed" value="F para registros com chave: %k" />
+    <!-- v2023 -->
+    <phrase id="deletesuccess" value="Deletado com Sucesso" />
+    <phrase id="detaillink" value="" />
+    <phrase id="detailcount" value="&lt;span class='badge bg-primary ew-detail-count-%c'&gt;%c&lt;/span&gt;" />
+    <!-- v2022 -->
+    <phrase id="details" value="Detalhes" />
+    <!-- v2022 -->
+    <phrase id="disable2fa" value="Desativar autenticação em dois fatores" />
+    <!-- v2022 -->
+    <phrase id="disable2faconfirm" value="voce está certo que deseja desabilitar a autenticação em dois fatores?" />
+    <!-- v2023 -->
+    <phrase id="disablenotifications" value="Desabilitar notificações" />
+    <!-- v2022 -->
+    <phrase id="disablenotificationsconfirm" value="Você está certo que deseja desabilitar notificações?" />
+    <!-- v2023 -->
+    <phrase id="downloadbtn" value="Download" />
+    <!-- v2019 -->
+    <phrase id="drilldownallrecords" value="Todos os registros" />
+    <!-- v2020 -->
+    <phrase id="drilldownfilters" value="Detalhar filtros:" />
+    <!-- v2020 -->
+    <phrase id="dupindex" value="Duplicar valores '%v' por indice único '%f'" />
+    <phrase id="dupkey" value="Duplicar chave-primária: '%f'" />
+    <phrase id="edit" value="Editar" />
+    <phrase id="editbtn" value="Editar" />
+    <!-- v2018 -->
+    <phrase id="editlink" value="Editar" class="fa-solid fa-pen ew-icon" />
+    <!-- v2023 -->
+    <phrase id="editselectedlink" value="Editar registro selecionado" class="icon-grid-edit ew-icon" />
+    <!-- v2023 -->
+    <phrase id="email" value="Email" />
+    <!-- v2021 -->
+    <phrase id="emailaddress" value="Endereço de Email" />
+    <!-- v2023 -->
+    <phrase id="emailformsender" value="Fromulário" />
+    <phrase id="emailformrecipient" value="Para" />
+    <phrase id="emailformcc" value="Cc" />
+    <phrase id="emailformbcc" value="Occ" />
+    <phrase id="emailformsubject" value="Assunto" />
+    <phrase id="emailformmessage" value="Mensaggem" />
+    <phrase id="emailformcontenttype" value="Eviar para" />
+    <phrase id="emailformcontenttypeurl" value="URL" />
+    <phrase id="emailformcontenttypehtml" value="HTML" />
+    <phrase id="emptylabel" value="(Vazio)" />
+    <!-- v2020 -->
+    <phrase id="enable2fa" value="Habilitar autenticação em dois fatores" />
+    <!-- v2022 -->
+    <phrase id="enablenotifications" value="Habilitar notificações" />
+    <!-- v2022 -->
+    <phrase id="enterfiltername" value="Entrar com nome do filtro" />
+    <!-- v12 -->
+    <phrase id="enternewpassword" value="Por favor entre com a nova senha" />
+    <phrase id="enteroldpassword" value="Por favor entre com a senha antiga" />
+    <phrase id="enterpassword" value="Por favor entre com a senha" />
+    <phrase id="enterrequiredfield" value="Por favor entre com o campo requerido - %s" />
+    <!-- v2021 -->
+    <phrase id="entersearchcriteria" value="Por favor entre com o critério de busca" />
+    <phrase id="entersecuritycodegoogle" value="Por favor entre com o código de segurança do Google Authenticator (ou código de backup)" />
+    <!-- v2023 -->
+    <phrase id="entersecuritycodeemail" value="Digite a senha de uso único enviada para sua conta de e-mail (ou código de backup)" />
+    <!-- v2023 -->
+    <phrase id="entersecuritycodesms" value="Digite a senha de uso único enviada para seu celular (ou código de backup)" />
+    <!-- v2023 -->
+    <phrase id="entersecuritycode" value="Digite sua senha de uso único para verificação" />
+    <!-- v2023 -->
+    <phrase id="enterotpemailaddress" value="Por favor informe seu email para receber sua senha" />
+    <!-- v2023 -->
+    <phrase id="enterotpmobilenumber" value="Por favor informe seu número de telefone para receber sua senha" />
+    <!-- v2023 -->
+    <phrase id="enterusername" value="Informe seu nome de usuário" />
+    <phrase id="entervalidatecode" value="Por favor entre com o código de validação" />
+    <!-- v11 -->
+    <phrase id="enterpropersenderemail" value="Excedido o número máximo de e-mail do remetente ou endereço de e-mail incorreto" />
+    <phrase id="enterproperrecipientemail" value="Excedido número máximo de email ou endereço de e-mail incorreto" />
+    <phrase id="enterproperccemail" value="Excedido número máximo de email copiados ou endereço de email incorreto" />
+    <phrase id="enterproperbccemail" value="Excedido número máxiom de emails ocultos ou endereço de email incorreto" />
+    <phrase id="entersubject" value="Por favor entre com o assunto" />
+    <phrase id="entervalue" value="Por favor entre com o valor" />
+    <!-- v2021 -->
+    <phrase id="entervalue2" value="Por favor entre com o segundo valor" />
+    <!-- v2021 -->
+    <phrase id="error" value="Erro" />
+    <!-- v2021 -->
+    <phrase id="exactphrase" value="Frase exata" />
+    <phrase id="exceedmaxretry" value="Excedida tentativa máxima de login a conta. A conta foi bloqueada. Por favor tente novamente em %t minutos" />
+    <phrase id="exceedmaxemailexport" value="Excedido número máximo de emails exportados. Por favor tente novamente mais tarde" />
+    <phrase id="exportchart" value="Exportando gráficos: " />
+    <!-- v2020 -->
+    <phrase id="exportchartdata" value="Exportando dados do gráficos" />
+    <!-- v2020 -->
+    <phrase id="exportcharterror" value="Falha ao Exportar gráficos: " />
+    <!-- v2020 -->
+    <phrase id="exportclassnotfound" value="Classe de exportação não encontrada" />
+    <!-- v2019 -->
+    <phrase id="exporting" value="Exportando, por favor aguarde..." />
+    <!-- v2018 -->
+    <phrase id="exporttocsv" value="Exportar para CSV" class="icon-csv ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttoemail" value="Email" class="fa-regular fa-envelope ew-icon" />
+    <!-- v2023 -->
+    <phrase id="exporttoexcel" value="Exportar para Excel" class="icon-excel ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttohtml" value="Exportar para HTML" class="icon-html ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttopdf" value="Exportar para PDF" class="icon-pdf ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttoword" value="Exportar para Word" class="icon-word ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttoxml" value="Exportar para XML" class="icon-xml ew-icon" />
+    <!-- v11 -->
+    <phrase id="failedtoexport" value="Falha para exportar" />
+    <!-- v2018 -->
+    <phrase id="failedtosendmail" value="Falha para enviar mail. " />
+    <phrase id="fieldname" value="Nome do campo" />
+    <phrase id="fieldrequiredindicator" value="" class="fa-solid fa-asterisk ew-required" />
+    <!-- v2023 -->
+    <phrase id="filenotfound" value="Arquivo não localizado" />
+    <phrase id="filter" value="Filtro" class="fa-solid fa-filter" />
+    <!-- v2023 -->
+    <phrase id="filterallrecords" value="Todos os registros" />
+    <!-- v2022 -->
+    <phrase id="filtercancel" value="Cancelar" />
+    <!-- v2022 -->
+    <phrase id="filtername" value="Nome do filtro" />
+    <!-- v12 -->
+    <phrase id="filternovalue" value="Nenhum valor selecionado" />
+    <!-- v2022 -->
+    <phrase id="filterok" value="OK" />
+    <!-- v2022 -->
+    <phrase id="filters" value="Filtros" class="fa-solid fa-filter ew-icon" />
+    <!-- v2023 -->
+    <phrase id="resetpasswordresponse" value="Você irá receber instruções para recuperar sua senha em seu email registrado." />
+    <!-- v2019 -->
+    <phrase id="resetpassword" value="Resetar Senha" />
+    <!-- v2020 -->
+    <phrase id="generatepassword" value="Gerar Senha" class="fa-solid fa-bolt ew-icon" />
+    <!-- v2023 -->
+    <phrase id="getnewcodes" value="Obter novos códigos" />
+    <!-- v2022 -->
+    <phrase id="goback" value="Voltar" />
+    <phrase id="gridaddcancelled" value="Adição de grade cancelada" />
+    <!-- v11 -->
+    <phrase id="gridaddlink" value="Adicionar Grade" class="icon-grid-add ew-icon" />
+    <!-- v11 -->
+    <phrase id="gridcancellink" value="Cancelar" class="fa-solid fa-xmark ew-icon" />
+    <!-- v2023 -->
+    <phrase id="grideditcancelled" value="Edição de Grade cancelada" />
+    <!-- v11 -->
+    <phrase id="grideditlink" value="Editar Grade" class="icon-grid-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="gridinsertlink" value="Inserir" class="fa-solid fa-check ew-icon" />
+    <!-- v2023 -->
+    <phrase id="gridsavelink" value="Salvar" class="fa-solid fa-check ew-icon" />
+    <!-- v2023 -->
+    <phrase id="group" value="Grupo" />
+    <!-- v2020 -->
+    <phrase id="groupsperpage" value="Grupos por pagina" />
+    <!-- v2020 -->
+    <phrase id="highlight" value="Realçar" />
+    <!-- v11 -->
+    <phrase id="highlightbtn" value="Realçar" class="fa-solid fa-highlighter ew-icon" />
+    <!-- v2023 -->
+    <phrase id="homepage" value="Principal" class="fa-solid fa-house ew-icon" />
+    <!-- v2023 -->
+    <phrase id="import" value="Importar" class="fa-solid fa-upload ew-icon" />
+    <!-- v2023 -->
+    <phrase id="importmaxfailuresexceeded" value="Número máximo de erros (%s) excedidos" />
+    <!-- v2023 -->
+    <phrase id="importrowerror" value="Falha para importar linhas #%i: %e" />
+    <!-- v2023 -->
+    <phrase id="importinvalidfileextension" value="Extensão de arquivo invalida '%e'" />
+    <!-- v2023 -->
+    <phrase id="importinvalidfieldname" value="Nome do campo inválido: %f" />
+    <!-- v2023 -->
+    <phrase id="importinvalidfieldvalue" value="Vlaor inválido para o cmapo '%f': %v" />
+    <!-- v2023 -->
+    <phrase id="importnoheaderrow" value="Nenhuma linha de cabeçalho para importar" />
+    <!-- v2023 -->
+    <phrase id="importresult" value="Processados %c de %t registros de %f (sucesso: %s, falha: %e)" />
+    <!-- v2023 -->
+    <phrase id="importsave" value="Os Registros ainda não foram salvos. Se voce aceitar o resultado pressione o botão salvar." />
+    <!-- v2023 -->
+    <phrase id="importservererror" value="Falha ao processar o(s) arquivo(s) carregado(s)" />
+    <!-- v2023 -->
+    <phrase id="importuploaderror" value="Failed to upload %f: %s" />
+    <!-- v2023 -->
+    <phrase id="importuploadcomplete" value="Envio concluído, arquivo de processamento(s)..." />
+    <!-- v2023 -->
+    <phrase id="importuploadprogress" value="Enviando...(p%)" />
+    <!-- v2023 -->
+    <phrase id="incorrectcreditcard" value="Número incorreto do cartão de crédito" />
+    <!-- v2021 -->
+    <phrase id="incorrectdate" value="Data incorreta (%s)" />
+    <!-- v2021 -->
+    <phrase id="incorrectemail" value="Email incorreto" />
+    <phrase id="incorrectfield" value="Valor do campo incorreto" />
+    <phrase id="incorrectfloat" value="Número de ponto flutuante incorreto" />
+    <phrase id="incorrectguid" value="GUID incorreto" />
+    <phrase id="incorrectinteger" value="Inteiro incorreto" />
+    <phrase id="incorrectmin" value="O número deve ser maior ou igual a %s" />
+    <!-- v2023 -->
+    <phrase id="incorrectmindate" value="Data/Hora deve ser mais tarde do que ou o mesmo que %s" />
+    <!-- v2023 -->
+    <phrase id="incorrectmax" value="O número deve ser menor ou igual a %s" />
+    <!-- v2023 -->
+    <phrase id="incorrectmaxdate" value="Data/Hora deve ser antes ou o mesmo que %s" />
+    <!-- v2023 -->
+    <phrase id="incorrectphone" value="Número de telefone incorreto" />
+    <phrase id="incorrectrange" value="O número deve estar entre %1 e %2" />
+    <phrase id="incorrectregexp" value="Expressão regular não correspondente" />
+    <phrase id="incorrectsecuritycode" value="Código de segurança incorreto" />
+    <!-- v2022 -->
+    <phrase id="incorrectssn" value="Número incorreto do Seguro Social" />
+    <phrase id="incorrecttime" value="Tempo incorreto (%s)" />
+    <!-- v2022 -->
+    <phrase id="incorrecturl" value="URL Invalida" />
+    <!-- v2022 -->
+    <phrase id="incorrectvalidationcode" value="Código de validação incorreto, por favor tente novamente." />
+    <!-- v2021 -->
+    <phrase id="incorrectzip" value="Codigo postal incorreto" />
+    <phrase id="info" value="Informação" />
+    <!-- v2020 -->
+    <phrase id="inlineaddlink" value="Adicionar em linha" class="icon-inline-add ew-icon" />
+    <!-- v11 -->
+    <phrase id="inlinecopylink" value="Copiar em linha" class="icon-inline-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="inlineeditlink" value="Editar em linha" class="icon-inline-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="insertcancelled" value="Insersão cancelada" />
+    <phrase id="insertfailed" value="Falha ao inserir" />
+    <phrase id="insertlink" value="Inserir" class="fa-solid fa-check ew-icon" />
+    <!-- v2023 -->
+    <phrase id="insertsuccess" value="Inserido com sucesso" />
+    <phrase id="invaliddate" value="Data invalida" />
+    <!-- v2021 -->
+    <phrase id="invalidkeyvalue" value="Chave Invalida" />
+    <phrase id="invalidrecord" value="Registro inválido! A chave é nula" />
+    <phrase id="invalidpostrequest" value="Solicitação de postagem inválida" />
+    <!-- v11 -->
+    <phrase id="invalidparameter" value="Parâmetro Invalido" />
+    <phrase id="invalidpassword" value="Senha Invalida" />
+    <phrase id="invalidpasswordchars" value="A senha não deve conter &amp;, &lt;, &gt;, &quot;, ou '" />
+    <!-- v2021 -->
+    <phrase id="invalidnewpassword" value="Nova senha inválida" />
+    <phrase id="invaliduidpwd" value="Usuário ou senha incorretos" />
+    <phrase id="invalidusernamechars" value="Nome de usuário não deve conter &amp;, &lt;, &gt;, &quot;, ou '" />
+    <!-- v2021 -->
+    <phrase id="jwttokenexpired" value="Sua sessão expirou, atualize sua página." />
+    <!-- v2023 -->
+    <phrase id="language" value="Linguagem" />
+    <phrase id="learnmore" value="Saber mais" />
+    <!-- v2019 -->
+    <phrase id="lightboxtitle" value=" " />
+    <!-- v11 -->
+    <phrase id="lightboxcurrent" value="Imagem {current} de {total}" />
+    <!-- Note: DO NOT translate "{current}" and "{total}" -->
+    <!-- v11 -->
+    <phrase id="lightboxprevious" value="anterior" />
+    <!-- v11 -->
+    <phrase id="lightboxnext" value="próximo" />
+    <!-- v11 -->
+    <phrase id="lightboxclose" value="fechar" />
+    <!-- v11 -->
+    <phrase id="lightboxxhrerror" value="Este conteúdo falhou em carregar." />
+    <!-- v11 -->
+    <phrase id="lightboximgerror" value="Esta imagem falhou ao carregar." />
+    <!-- v11 -->
+    <phrase id="list" value="" />
+    <!-- v2019 -->
+    <phrase id="listactionbutton" value="Ações" class="fa-solid fa-ellipsis-vertical" />
+    <!-- v2023 -->
+    <phrase id="loading" value="Carregando..." />
+    <phrase id="login" value="Login" class="fa-solid fa-arrow-right-to-bracket ew-icon" />
+    <!-- v2023 -->
+    <phrase id="loginazure" value="Acessar com Azure" class="fa-brands fa-microsoft" />
+    <!-- v2023 -->
+    <phrase id="logincancelled" value="Acesso cancelado" />
+    <phrase id="loginfacebook" value="Acessar com Facebook" class="fa-brands fa-facebook-f" />
+    <!-- v2023 -->
+    <phrase id="loginsucceeded" value="Login bem -sucedido, redirecionando..." />
+    <!-- v2023 -->
+    <phrase id="loginfailed" value="Login com %p falha" />
+    <!-- v2018 -->
+    <phrase id="logingoogle" value="Acessar com Google" class="fa-brands fa-google" />
+    <!-- v2023 -->
+    <phrase id="loginmsg" value="Faça login para iniciar sua sessão" />
+    <!-- v2019 -->
+    <phrase id="loginoptions" value="Opções" />
+    <!-- v11 -->
+    <phrase id="loginor" value="- OU -" />
+    <!-- v2018 -->
+    <phrase id="loginsaml" value="Acessar com SAML" class="fa-solid fa-user-shield" />
+    <!-- v2023 -->
+    <phrase id="loginpage" value="Acessar" />
+    <phrase id="login2fapage" value="Acessar (Autenticação de dois fatores)" />
+    <!-- v2022 -->
+    <phrase id="logout" class="fa-solid fa-arrow-right-from-bracket ew-icon" value="Sair" />
+    <!-- v2023 -->
+    <phrase id="lookuptitle" value="Pesquisa - %s" />
+    <!-- v2022 -->
+    <phrase id="masterdetailcopylink" value="Master/Detail Copiar" class="icon-md-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterdetaileditlink" value="Master/Detail Editar" class="icon-md-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterdetaillistlink" value="Lista de detalhes" class="fa-solid fa-table-list ew-icon" />
+    <!-- v2023 -->
+    <phrase id="masterdetailviewlink" value="Master/Detail Visualizar" class="icon-md-view ew-icon" />
+    <!-- v11 -->
+    <phrase id="maxfilesize" value="Tamanho maximo do arquivo (%s bytes) excedido." />
+    <phrase id="mismatchpassword" value="Senha de incompatibilidade" />
+    <phrase id="missinglookuptablename" value="Nome da tabela de pesquisa ausente" />
+    <phrase id="missingdisplayfieldname" value="Nome do campo de exibição ausente" />
+    <phrase id="missingdisplayfieldvalue" value="Valor do campo de exibição ausente" />
+    <phrase id="missingpdfobject" value="Ausência do PDFObject" />
+    <!-- v2020 -->
+    <phrase id="missinguserlevelid" value="ID de nível de usuário ausente" />
+    <phrase id="missinguserlevelname" value="Nome do nível do usuário ausente" />
+    <phrase id="mobilenumber" value="Número de celular" />
+    <!-- v2023 -->
+    <phrase id="multicolumncards" value="Visualização de cartões" class="fa-solid fa-table-cells-large ew-icon" />
+    <!-- v2023 -->
+    <phrase id="multicolumntable" value="Visualização de tabela" class="fa-solid fa-table-list ew-icon" />
+    <!-- v2023 -->
+    <phrase id="multiplemasterdetails" value="Master/Detail" class="icon-master-detail ew-icon" />
+    <!-- v11 -->
+    <phrase id="newpassword" value="Nova Senha" />
+    <!-- v2021 -->
+    <phrase id="next" value="Próximo" />
+    <!-- v12 -->
+    <phrase id="noaddrecord" value="Nenhum registro a ser adicionado" />
+    <phrase id="nofieldselected" value="Nenhum campo selecionado para atualização" />
+    <phrase id="nopermission" value="Você não tem permissão para acessar %s." />
+    <!-- v12 -->
+    <phrase id="noaddpermission" value="Você não tem permissão para adicionar o registro." />
+    <phrase id="nochartdata" value="Sem dados para exibir" />
+    <!-- v2020 -->
+    <phrase id="nodeletepermission" value="Você não tem permissão para excluir o registro." />
+    <phrase id="nodistinctcolvals" value="Nenhum valores distintos da coluna para SQL: " />
+    <!-- v2020 -->
+    <phrase id="noeditpermission" value="Você não tem permissão para editar o registro." />
+    <phrase id="nohtmlform" value="Formulário HTML não encontrado" />
+    <!-- v2022 -->
+    <phrase id="norecord" value="Nenhum registro foi encontrado" />
+    <!-- v2017 -->
+    <phrase id="norecordforkey" value="Nenhum registro encontrado para a chave = " />
+    <phrase id="noreportorcharts" value="Nenhum relatório ou gráfico está disponível para esta página." />
+    <!-- v2020 -->
+    <phrase id="norecordselected" value="Nenhum registro selecionado" />
+    <phrase id="nosubscription" value="Você não tem assinatura" />
+    <!-- v2022 -->
+    <phrase id="nosubscriptions" value="Nenhuma assinatura encontrada" />
+    <!-- v2022 -->
+    <phrase id="notablegenerated" value="Nenhuma tabela gerada" />
+    <phrase id="notice" value="Nota" />
+    <!-- v2021 -->
+    <phrase id="notifications" value="Notificações" class="fa-solid fa-bell ew-icon" />
+    <!-- v2023 -->
+    <phrase id="notificationsdisabled" value="Notificações desabilitadas" />
+    <!-- v2022 -->
+    <phrase id="notificationsenabled" value="Notificações abilitadas" />
+    <!-- v2022 -->
+    <phrase id="nouserlevel" value="Sem configurações de nível de usuário." />
+    <phrase id="nulllabel" value="(Nulo)" />
+    <!-- v2020 -->
+    <phrase id="of" value="do" />
+    <!-- v2017 -->
+    <phrase id="okbtn" value="OK" />
+    <!-- v2021 -->
+    <phrase id="old" value="Antigo" />
+    <phrase id="oldpassword" value="Senha Antiga" />
+    <!-- v2021 -->
+    <phrase id="overwritebtn" value="Sobrescrever" />
+    <!-- v2017 -->
+    <phrase id="overwritelink" value="Sobrescrever" />
+    <phrase id="page" value="Page" />
+    <!-- v2017 -->
+    <phrase id="pagenotfound" value="Rota '%p' não encontrada." />
+    <!-- v2021 -->
+    <phrase id="pagerfirst" value="Primeira" />
+    <phrase id="pagerlast" value="Última" />
+    <phrase id="pagernext" value="Próxima" />
+    <phrase id="pagerprevious" value="Anterior" />
+    <phrase id="password" value="Senha" />
+    <!-- v2021 -->
+    <phrase id="passwordmask" value="********" />
+    <!-- v12 -->
+    <phrase id="passwordrequest" value="Solicitação de senha" />
+    <phrase id="passwordchanged" value="Senha alterada" />
+    <phrase id="passwordexpired" value="Senha expirada.Altere a senha." />
+    <phrase id="passwordstrength" value="Força: %p" />
+    <!-- v12 -->
+    <phrase id="passwordtoosimple" value="Sua senha é muito simples" />
+    <!-- v12 -->
+    <phrase id="permission" value="Permissão" class="fa-solid fa-user ew-icon" />
+    <!-- v2023 -->
+    <phrase id="permissionadd" value="Adicionar/Copiar" />
+    <!-- v2020 -->
+    <phrase id="permissionadmin" value="Admin" />
+    <!-- v2019 -->
+    <phrase id="permissiondelete" value="Excluir" />
+    <!-- v2018 -->
+    <phrase id="permissionedit" value="Editar" />
+    <!-- v2018 -->
+    <phrase id="permissionexport" value="Exportar" />
+    <!-- v2023 -->
+    <phrase id="permissionimport" value="Importar" />
+    <!-- v2020 -->
+    <phrase id="permissionlistsearchview" value="Lista/Busca/Visualização" />
+    <!-- v2018 -->
+    <phrase id="permissionlist" value="Lista" />
+    <!-- v2018 -->
+    <phrase id="permissionlookup" value="Pesquisar" />
+    <!-- v2020 -->
+    <phrase id="permissionpush" value="Push" />
+    <!-- v2023 -->
+    <phrase id="permissionsearch" value="Busca" />
+    <!-- v2018 -->
+    <phrase id="permissionview" value="Visualização" />
+    <!-- v2018 -->
+    <phrase id="personaldatabtn" value="Dados pessoais" />
+    <!-- v2019 -->
+    <phrase id="personaldatacontent" value="Sua conta contém dados pessoais que você nos deu.Esta página permite baixar ou excluir esses dados." />
+    <!-- v2019 -->
+    <phrase id="personaldatadeletefailure" value="Ocorreu um erro inesperado excluindo o usuário" />
+    <!-- v2019 -->
+    <phrase id="personaldatadeletesuccess" value="Dados pessoais excluídos com sucesso" />
+    <!-- v2019 -->
+    <phrase id="personaldatatitle" value="Dados pessoais" />
+    <!-- v2019 -->
+    <phrase id="personaldatawarning" value="Excluir esses dados removerá permanentemente sua conta, e isso não pode ser recuperado." />
+    <!-- v2019 -->
+    <phrase id="pleaseselect" value="Por favor selecione" />
+    <!-- v12 -->
+    <phrase id="prev" value="Prev" />
+    <!-- v12 -->
+    <phrase id="primarykeyunspecified" value="Chave primária não especificada" />
+    <phrase id="printerfriendly" value="Amigável para impressoras" class="fa-solid fa-print ew-icon" />
+    <!-- v2023 -->
+    <phrase id="privacypolicy" value="Política de Privacidade" />
+    <!-- v2019 -->
+    <phrase id="privacypolicycontent" value="Use esta página para detalhar a política de privacidade do seu site." />
+    <!-- v2019 -->
+    <phrase id="pushnotificationdefaulttitle" value="Nova notificação" />
+    <!-- v2022 -->
+    <phrase id="pushnotificationformtitle" value="Título" />
+    <!-- v2022 -->
+    <phrase id="pushnotificationformbody" value="Corpo" />
+    <!-- v2022 -->
+    <phrase id="pushnotificationfailure" value="Falha ao enviar notificações push (falha = %f)" />
+    <!-- v2022 -->
+    <phrase id="pushnotificationsent" value="Notificações push são sent&lt;br&gt;(successo = %s, falha = %f)" />
+    <!-- v2022 -->
+    <phrase id="pushnotificationsuccess" value="Todas as notificações push são enviadas (successo = %s)" />
+    <!-- v2022 -->
+    <phrase id="querybuilder" value="Construtor de consultas" class="fa-solid fa-sliders ew-icon" />
+    <!-- v2023 -->
+    <phrase id="quicksearchauto" value="Automatico" />
+    <!-- v11 -->
+    <phrase id="quicksearchautoshort" value="" />
+    <!-- v11 -->
+    <phrase id="quicksearchall" value="Todas palavras" />
+    <!-- v11 -->
+    <phrase id="quicksearchallshort" value="Todos" />
+    <!-- v11 -->
+    <phrase id="quicksearchany" value="Qualquer palavra" />
+    <!-- v11 -->
+    <phrase id="quicksearchanyshort" value="Qualquer" />
+    <!-- v11 -->
+    <phrase id="quicksearchexact" value="Combinação exata" />
+    <!-- v11 -->
+    <phrase id="quicksearchexactshort" value="Exato" />
+    <!-- v11 -->
+    <phrase id="recipient" value="Receptor(es)" />
+    <!-- v2021 -->
+    <phrase id="record" value="Registros" />
+    <!-- v2022 -->
+    <phrase id="recordchangedbyotheruser" value="Os dados foram alterados por outro usuário.Clique em [Recarregar] para recuperar os dados alterados (seus dados no formulário serão substituídos) ou clique em [Sobrescrever] para substituir os dados alterados." />
+    <phrase id="recorddeleted" value="registro(s) deletado(s)" />
+    <phrase id="recordinserted" value="registro(s) inserido(s)" />
+    <phrase id="recordupdated" value="registro(s) atualizado(s)" />
+    <phrase id="recordsperpage" value="Tamanho da página" />
+    <!-- v2017 -->
+    <phrase id="register" value="Cadastro" />
+    <!-- v2020 -->
+    <phrase id="registerbtn" value="Cadastro" />
+    <phrase id="registersuccess" value="As inscrições foram bem -sucedidas" />
+    <phrase id="registersuccessactivate" value="O registro foi bem -sucedido. Um email foi enviado para o seu endereço de e -mail, clique no link no email para ativar sua conta." />
+    <phrase id="registerpage" value="Cadastro" />
+    <phrase id="relatedrecordrequired" value="Você não pode adicionar ou atualizar um registro porque o valor da chave estrangeira não existe na tabela mestre '%t'" />
+    <phrase id="relatedrecordexists" value="Você não pode excluir um registro porque existem registros relacionados na tabela de detalhes '%t'" />
+    <phrase id="reloadbtn" value="Recarregar" />
+    <!-- v2017 -->
+    <phrase id="reloadlink" value="Recarregar" />
+    <phrase id="rememberme" value="Lembre de mim" />
+    <phrase id="remove" value="Remova" />
+    <phrase id="replace" value="Sobrescrever" />
+    <phrase id="report" value="Relatório" />
+    <phrase id="resetpwd" value="Resetar Senha" />
+    <!-- v2020 -->
+    <phrase id="resetpwdtitle" value="Resetar Senha" />
+    <!-- v2023 -->
+    <phrase id="resendregisteremailbtn" value="Reenviar o email de registro" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailsuccess" value="Email de inscrição para usuário '%u' foi reenviado" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailfailure" value="Falha para reenviar registro de email para usuário '%u'" />
+    <!-- v12 -->
+    <phrase id="reset" value="Resetar" />
+    <phrase id="resetallfilter" value="Resetar todos os filtros" class="icon-reset-search ew-icon" />
+    <!-- v2020 -->
+    <phrase id="resetconcurrentuserbtn" value="Resetar seção do usuário atual" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentusersuccess" value="Seção para o usuário '%u' foi redefinido" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentuserfailure" value="Falha ao reiniciar seção para o usuário'%u'" />
+    <!-- v12 -->
+    <phrase id="resetloginretrybtn" value="Redefinir contagem de repetições de login" />
+    <!-- v12 -->
+    <phrase id="resetloginretrysuccess" value="Contagem de repetição de login para usuário '%u' foi redefinido" />
+    <!-- v12 -->
+    <phrase id="resetloginretryfailure" value="Falha ao redefinir a contagem de repetições de login para o usuário '%u'" />
+    <!-- v12 -->
+    <phrase id="resetsearchbtn" value="Redefinir" class="icon-reset-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="resetsearch" value="Redefinir" />
+    <phrase id="resetusersecretbtn" value="Redefinir segredo do usuário" />
+    <!-- v2022 -->
+    <phrase id="resetusersecretsuccess" value="Segredo do usuário '%u' foi redefinido" />
+    <!-- v2022 -->
+    <phrase id="resetusersecretfailure" value="Falha para redefinir o segredo do usuário '%u'" />
+    <!-- v2022 -->
+    <phrase id="rptavg" value="AVG" />
+    <!-- v2020 -->
+    <phrase id="rptcnt" value="CONTAGEM" />
+    <!-- v2020 -->
+    <phrase id="rptdtlrec" value=" registros detalhados" />
+    <!-- v2020 -->
+    <phrase id="rptgrandsummary" value="Grande resumo" />
+    <!-- v2020 -->
+    <phrase id="rptmax" value="MAX" />
+    <!-- v2020 -->
+    <phrase id="rptmin" value="MIN" />
+    <!-- v2020 -->
+    <phrase id="rptpagesummary" value="Página de Sumário" />
+    <!-- v2020 -->
+    <phrase id="rptsum" value="SOMA" />
+    <!-- v2020 -->
+    <phrase id="rptsumhead" value="Sumario para %c: %v" />
+    <!-- v2020 -->
+    <phrase id="savebtn" value="Salvar" />
+    <!-- v2018 -->
+    <phrase id="savecurrentfilter" value="Salvar filtro atual" />
+    <!-- v12 -->
+    <phrase id="scan2faqrcode" value="Depois de instalar o Google Authenticator, digitalize o código QR acima e insira o código de verificação" />
+    <!-- v2022 -->
+    <phrase id="search" value="Procurar" />
+    <!-- v2017 -->
+    <phrase id="searchbtn" value="Procurar" />
+    <!-- v2018 -->
+    <phrase id="searchlink" value="Procurar" class="fa-solid fa-magnifying-glass ew-icon" />
+    <!-- v2023 -->
+    <phrase id="searchpanel" value="Painel de Busca" />
+    <!-- v11 -->
+    <phrase id="securitycode" value="Código de Segurança" />
+    <!-- v2022 -->
+    <phrase id="securitycodeverified" value="Código de segurança verificado, redirecionando..." />
+    <!-- v2022 -->
+    <phrase id="selectall" value="Selecionar Tudo" />
+    <!-- v2022 -->
+    <phrase id="selectbtn" value="Selecionar" />
+    <!-- v2017 -->
+    <phrase id="sendemailbtn" value="Enviar" />
+    <phrase id="sendemailsuccess" value="Email enviado com sucesso" />
+    <phrase id="sender" value="Remetente" />
+    <!-- v2021 -->
+    <phrase id="sendotp" value="Enviar uma senha única" />
+    <!-- v2023 -->
+    <phrase id="sendotpconfirm" value="Tem certeza que deseja enviar a senha única?" />
+    <!-- v2023 -->
+    <phrase id="sendotpsuccess" value="Uma senha única foi enviada com sucesso." />
+    <!-- v2023 -->
+    <phrase id="sendotpfailed" value="Falha ao tentar enviar senha única: %e" />
+    <!-- v2023 -->
+    <phrase id="sendotpskipped" value="A senha única foi ignorada para uma conta inválida '%a' de usuário '%u'" />
+    <!-- v2023 -->
+    <phrase id="sendotpcancelled" value="A senha única foi cancelada pelo usuário" />
+    <!-- v2023 -->
+    <phrase id="sendpushnotification" value="Envie notificações push" class="fa-solid fa-bell ew-icon" />
+    <!-- v2023 -->
+    <phrase id="sendpushnotificationbtn" value="Enviar" />
+    <!-- v2022 -->
+    <phrase id="sendpushnotificationstoall" value="Nenhuma assinatura selecionada.Envie notificações push para todos?" />
+    <!-- v2022 -->
+    <phrase id="sendpwd" value="Enviar" />
+    <!-- v2020 -->
+    <phrase id="sequencenumber" value="%s." />
+    <phrase id="servercommunicationerror" value="Ocorreu um erro ao se comunicar com o servidor." />
+    <!-- v2022 -->
+    <phrase id="servererror" value="Ocorreu um erro interno ao processar sua solicitação." />
+    <!-- v2021 -->
+    <phrase id="sessionwillexpire" value="Sua sessão expirará em %s segundos. Click em OK para continuarsua seção." />
+    <!-- v12 -->
+    <phrase id="sessionexpired" value="Sua sessão expirou." />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredbtn" value="Definição de senha expirada" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredsuccess" value="Senha para usuário '%u' foi definido como expirado" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredfailure" value="Falha ao definir a senha para o usuário '%u' como expirado" />
+    <!-- v12 -->
+    <phrase id="showallbtn" value="Mostrar tudo" class="icon-reset-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="showall" value="Mostrar Tudo" />
+    <!-- v11 -->
+    <phrase id="skip" value="Pular" />
+    <!-- v2023 -->
+    <phrase id="sortup" value="Crescente" class="fa-solid fa-sort-up" />
+    <!-- v2023 -->
+    <phrase id="sortdown" value="Decrescente" class="fa-solid fa-sort-down" />
+    <!-- v2023 -->
+    <phrase id="subject" value="Assunto" />
+    <!-- v2021 -->
+    <phrase id="success" value="Sucesso" />
+    <!-- v2020 -->
+    <phrase id="summary" value="Sumario" />
+    <!-- v2020 -->
+    <phrase id="summarycolon" value=": " />
+    <!-- v2020 -->
+    <phrase id="table" value="TABELA" />
+    <phrase id="tables" value="Tabelas" />
+    <!-- v2022 -->
+    <phrase id="to" value="para" />
+    <phrase id="top" value="Topo" />
+    <!-- v2020 -->
+    <phrase id="total" value="Total" />
+    <phrase id="unauthorizeduserid" value="O usuário atual (%c) não está autorizado para acessar o ID do usuário (%u)." />
+    <phrase id="unauthorizedparentuserid" value="O usuário atual (%c) não está autorizado para acessaro ID do usuário Pai (%p)." />
+    <phrase id="unauthorizedmasteruserid" value="O usuário atual (%c) não está autorizado pra inserir o registro. Filtro master: %f" />
+    <phrase id="unsupportedbrowser" value="Seu navegador não suporta essa página" />
+    <!-- v2021 -->
+    <phrase id="update" value="Atualizar" />
+    <phrase id="updatebtn" value="Atualizar" />
+    <!-- v2017 -->
+    <phrase id="updatecancelled" value="Atualizaçao cancelada" />
+    <phrase id="updatefailed" value="Falha na atualização" />
+    <phrase id="updatelink" value="Atualizar" class="fa-solid fa-check ew-icon" />
+    <!-- v2023 -->
+    <phrase id="updateselectedlink" value="Atualizar registros selecionados" class="fa-solid fa-pen ew-icon" />
+    <!-- v2023 -->
+    <phrase id="updatesomerecordsfailed" value="Falha ao atualizar registros com a chave: %k" />
+    <!-- v2022 -->
+    <phrase id="updatesuccess" value="Sucesso na atualização" />
+    <phrase id="uploading" value="Atualizando..." />
+    <phrase id="uploadstart" value="Iniciar" />
+    <phrase id="uploadcancel" value="Cancelar" />
+    <phrase id="uploaddelete" value="Deletar" />
+    <phrase id="uploadoverwrite" value="Substituir o arquivo antigo?" />
+    <phrase id="uploaderror1" value="O tamanho do arquivo carregado excede a diretiva upload_max_filesize php.ini" />
+    <!-- v2023 -->
+    <phrase id="uploaderror2" value="O tamanho do arquivo carregado excede a diretiva max_file_size que foi especificada no formulário HTML" />
+    <!-- v2023 -->
+    <phrase id="uploaderror3" value="O arquivo enviado foi apenas parcialmente enviado" />
+    <!-- v2023 -->
+    <phrase id="uploaderror4" value="Nenhum arquivo foi carregado" />
+    <!-- v2023 -->
+    <phrase id="uploaderror6" value="Faltando uma pasta temporária" />
+    <!-- v2023 -->
+    <phrase id="uploaderror7" value="Falha ao escrever o arquivo no disco" />
+    <!-- v2023 -->
+    <phrase id="uploaderror8" value="Uma extensão PHP parou o envio do arquivo" />
+    <!-- v2023 -->
+    <phrase id="uploaderrorpostmaxsize" value="O tamanho do arquivo carregado excede a diretiva post_max_size no php.ini" />
+    <!-- v2023 -->
+    <phrase id="uploaderrormaxfilesize" value="O arquivo é muito grande" />
+    <!-- v2023 -->
+    <phrase id="uploaderrorminfilesize" value="O arquivo é muito pequeno" />
+    <!-- v2023 -->
+    <phrase id="uploaderroracceptfiletypes" value="Tipo de arquivo não permitido" />
+    <!-- v2023 -->
+    <phrase id="uploaderrormaxnumberoffiles" value="Número máximo de arquivos excedidos" />
+    <!-- v2023 -->
+    <phrase id="uploaderrormaxwidth" value="A imagem excede a largura máxima" />
+    <!-- v2023 -->
+    <phrase id="uploaderrorminwidth" value="A imagem requer uma largura mínima" />
+    <!-- v2023 -->
+    <phrase id="uploaderrormaxheight" value="A imagem excede a altura máxima" />
+    <!-- v2023 -->
+    <phrase id="uploaderrorminheight" value="A imagem requer uma altura mínima" />
+    <!-- v2023 -->
+    <phrase id="uploaderrormaxfilelength" value="O comprimento total dos nomes de arquivos excede o comprimento do campo" />
+    <phrase id="useradministrator" value="Administrador" />
+    <!-- v12 -->
+    <phrase id="useranonymous" value="Anônimo" />
+    <!-- v12 -->
+    <phrase id="userdefault" value="Padrão" />
+    <!-- v12 -->
+    <phrase id="useremail" value="Email" />
+    <phrase id="userexists" value="Usuário já existe" />
+    <phrase id="userlevel" value="Nível do Usuário: " />
+    <phrase id="userleveladministratorname" value="Nome do nível do usuário -1 deve ser 'Administrador'" />
+    <phrase id="userlevelanonymousname" value="Nome do nível do usuário -2 deve ser 'Anonimo'" />
+    <!-- v12 -->
+    <phrase id="userlevelpermission" value="Permissões no nível do usuário" />
+    <phrase id="userlevelidinteger" value="O ID do nível do usuário deve ser inteiro" />
+    <phrase id="userleveldefaultname" value="O nome do nível do usuário 0 deve ser 'Padrão'" />
+    <phrase id="userlevelidincorrect" value="O ID do nível do usuário deve ser maior que 0" />
+    <phrase id="userlevelnameincorrect" value="O nome do nível do usuário precisa ser 'Anônimo', 'Administrador' ou 'Padrão'" />
+    <phrase id="userloggedin" value="Usuário '%u' já logado" />
+    <phrase id="username" value="Nome do Usuário" />
+    <!-- v2021 -->
+    <phrase id="usernotfound" value="Usuário '%u' não encontrado" />
+    <!-- v2018 -->
+    <phrase id="userprofilecorrupted" value="O perfil do usuário está corrompido. Por favor saia e efetue login novamente" />
+    <phrase id="valuenotexist" value="Valores inexistentes" />
+    <!-- v11 -->
+    <phrase id="verify" value="Verificar" />
+    <!-- v2022 -->
+    <phrase id="view" value="Visualização" />
+    <phrase id="viewimagegallery" value="Click para ver a imagem" />
+    <!-- v12 -->
+    <phrase id="viewlink" value="Visualização" class="icon-view ew-icon" />
+    <!-- v11 -->
+    <phrase id="viewpageaddlink" value="Adicionar" class="fa-solid fa-plus ew-icon" />
+    <!-- v2023 -->
+    <phrase id="viewpagecopylink" value="Copiar" class="fa-regular fa-copy ew-icon" />
+    <!-- v2023 -->
+    <phrase id="viewpagedeletelink" value="Deletar" class="fa-solid fa-trash ew-icon" />
+    <!-- v2023 -->
+    <phrase id="viewpagedetaillink" value="" />
+    <phrase id="viewpageeditlink" value="Editar" class="fa-solid fa-pen ew-icon" />
+    <!-- v2023 -->
+    <phrase id="warning" value="Atenção" />
+    <!-- v2020 -->
+    <phrase id="week" value="Semana" />
+    <!-- v2020 -->
+    <phrase id="wrongfiletype" value="O tipo de arquivo não é permitido." />
+    <phrase id="year" value="Ano" />
+    <!-- v2020 -->
+    <phrase id="=" value="&amp;nbsp;" />
+    <!-- v12 -->
+    <phrase id="equal" value="=" />
+    <!-- v12 -->
+    <phrase id="in" value="em" />
+    <!-- v2023 -->
+    <phrase id="not in" value="não incluído" />
+    <!-- v2023 -->
+    <phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;" />
+    <phrase id="&lt;" value="&amp;lt;" />
+    <phrase id="&lt;=" value="&amp;lt;=" />
+    <phrase id="&gt;" value="&amp;gt;" />
+    <phrase id="&gt;=" value="&amp;gt;=" />
+    <phrase id="like" value="contém" />
+    <phrase id="not like" value="não contém" />
+    <!-- v2023 -->
+    <phrase id="starts with" value="começa com" />
+    <phrase id="not starts with" value="não começa com" />
+    <!-- v2023 -->
+    <phrase id="ends with" value="termina com" />
+    <phrase id="not ends with" value="não termina com" />
+    <!-- v2023 -->
+    <phrase id="is empty" value="está vazio" />
+    <!-- v2023 -->
+    <phrase id="is not empty" value="não está vazio" />
+    <!-- v2023 -->
+    <phrase id="is null" value="é nulo" />
+    <phrase id="is not null" value="não é nulo" />
+    <phrase id="between" value="entre" />
+    <phrase id="not between" value="não está entre" />
+    <!-- v2023 -->
+    <phrase id="and" value="e" />
+    <phrase id="or" value="ou" />
+    <!-- Advanced Filter -->
+    <!-- v2020 -->
+    <phrase id="future" value="Futuro" />
+    <phrase id="past" value="Passado" />
+    <phrase id="last14days" value="Últimos 14 dias" />
+    <phrase id="last30days" value="Últimos 30 dias" />
+    <phrase id="last7days" value="Últimos 7 dias" />
+    <phrase id="next14days" value="Próximos 14 dias" />
+    <phrase id="next30days" value="Próximos 30 dias" />
+    <phrase id="next7days" value="Próximos 7 dias" />
+    <phrase id="today" value="Hoje" />
+    <phrase id="tomorrow" value="Amanhã" />
+    <phrase id="yesterday" value="Ontem" />
+    <phrase id="lastmonth" value="Último mês" />
+    <phrase id="nextmonth" value="Próximo mês" />
+    <phrase id="thismonth" value="Este mês" />
+    <phrase id="lasttwoweeks" value="Últimas duas semanas" />
+    <phrase id="lastweek" value="Semana Anterior" />
+    <phrase id="nexttwoweeks" value="Próximas duas semanas" />
+    <phrase id="nextweek" value="Semana que vem" />
+    <phrase id="thisweek" value="Essa semana" />
+    <phrase id="lastyear" value="Ano passado" />
+    <phrase id="nextyear" value="Próximo ano" />
+    <phrase id="thisyear" value="Este ano" />
+    <!-- Exceptions -->
+    <!-- v2021 -->
+    <phrase id="400" value="Falha na requisição" />
+    <phrase id="400desc" value="O servidor não pode ou não processará a solicitação devido a um erro aparente do cliente." />
+    <phrase id="401" value="Não autorizado" />
+    <phrase id="401desc" value="O pedido requer autenticação de usuário válida." />
+    <phrase id="403" value="Proibida" />
+    <phrase id="403desc" value="Você não tem permissão para executar a operação solicitada." />
+    <phrase id="404" value="Não encontrado" />
+    <phrase id="404desc" value="O recurso solicitado não pôde ser encontrado.Por favor, verifique o URI e tente novamente." />
+    <phrase id="405" value="Método não permitido" />
+    <phrase id="405desc" value="O método de solicitação não é suportado para o recurso solicitado." />
+    <phrase id="500" value="Erro Interno de Servidor" />
+    <phrase id="500desc" value="Condição inesperada encontrou impedindo que o servidor atenda a solicitação." />
+    <phrase id="501" value="Não implementado" />
+    <phrase id="501desc" value="O servidor não suporta a funcionalidade necessária para atender à solicitação." />
+    <!-- DO NOT change letter case of the following IDs! -->
+    <!-- Datetime Picker -->
+    <!-- v2023 -->
+    <datetimepicker>
+      <phrase id="today" value="Vá para hoje" />,
+        <phrase id="clear" value="Limpar Seleção" />,
+        <phrase id="close" value="Fechar o seletor" />,
+        <phrase id="selectMonth" value="Selecionar Mês" />,
+        <phrase id="previousMonth" value="Mês Anterior" />,
+        <phrase id="nextMonth" value="Próximo Mês" />,
+        <phrase id="selectYear" value="Select Year" />,
+        <phrase id="previousYear" value="Ano Passado" />,
+        <phrase id="nextYear" value="Próximo Ano" />,
+        <phrase id="selectDecade" value="Selecionar década" />,
+        <phrase id="previousDecade" value="Década Anterior" />,
+        <phrase id="nextDecade" value="Próxima Década" />,
+        <phrase id="previousCentury" value="Século anterior" />,
+        <phrase id="nextCentury" value="Próximo século" />,
+        <phrase id="pickHour" value="Hora da escolha" />,
+        <phrase id="incrementHour" value="Hora de incremento" />,
+        <phrase id="decrementHour" value="Hora de diminuição" />,
+        <phrase id="pickMinute" value="Escolha minuto" />,
+        <phrase id="incrementMinute" value="Minuto de incremento" />,
+        <phrase id="decrementMinute" value="Minuto de decremento" />,
+        <phrase id="pickSecond" value="Escolha o segundo" />,
+        <phrase id="incrementSecond" value="Incremento em segundo" />,
+        <phrase id="decrementSecond" value="Decremento segundo" />,
+        <phrase id="toggleMeridiem" value="Alternar o brilho" />,
+        <phrase id="selectTime" value="Selecione tempo" />,
+        <phrase id="selectDate" value="Selecione a data" /></datetimepicker>
+    <!-- Select2 -->
+    <!-- v2022 -->
+    <select2>
+      <phrase id="errorLoading" value="Os resultados não puderam ser carregados." />
+      <phrase id="inputTooLong" value="Por favor delete %s caracter(es)" />
+      <phrase id="inputTooShort" value="Por favor, insira %s ou mais caracteres" />
+      <phrase id="loadingMore" value="Carregando mais..." />
+      <phrase id="maximumSelected" value="Você só pode selecionar %s item(s)" />
+      <phrase id="noResults" value="Nenhum resultado encontrado" />
+      <phrase id="searching" value="Procurando..." />
+      <phrase id="removeAllItems" value="Remova todos os itens" />
+      <phrase id="removeItem" value="Remover item" />
+      <phrase id="search" value="Procurar" />
+    </select2>
+    <!-- jQuery Query Builder -->
+    <!-- v2023 -->
+    <querybuilderjs>
+      <phrase id="add_rule" value="Adicionar regra" />
+      <phrase id="add_group" value="Adicionar grupo" />
+      <phrase id="delete_rule" value="Deletar" />
+      <phrase id="delete_group" value="Deletar" />
+      <phrase id="invert" value="Inverter" />
+      <phrase id="NOT" value="NÂO" />
+      <conditions>
+        <phrase id="AND" value="E" />
+        <phrase id="OR" value="OU" />
+      </conditions>
+      <operators>
+        <phrase id="equal" value="=" />
+        <phrase id="not_equal" value="&amp;lt;&amp;gt;" />
+        <phrase id="in" value="em" />
+        <phrase id="not_in" value="não incluído" />
+        <phrase id="less" value="&amp;lt;" />
+        <phrase id="less_or_equal" value="&amp;lt;=" />
+        <phrase id="greater" value="&amp;gt;" />
+        <phrase id="greater_or_equal" value="&amp;gt;=" />
+        <phrase id="between" value="entre" />
+        <phrase id="not_between" value="não está entre" />
+        <phrase id="begins_with" value="começa com" />
+        <phrase id="not_begins_with" value="não começa com" />
+        <phrase id="contains" value="contém" />
+        <phrase id="not_contains" value="não contém" />
+        <phrase id="ends_with" value="termina com" />
+        <phrase id="not_ends_with" value="não termina com" />
+        <phrase id="is_empty" value="está vazio" />
+        <phrase id="is_not_empty" value="não está vazio" />
+        <phrase id="is_null" value="é nulo" />
+        <phrase id="is_not_null" value="não é nulo" />
+      </operators>
+      <errors>
+        <phrase id="no_filter" value="Nenhum filtro selecionado" />
+        <phrase id="empty_group" value="O grupo está vazio" />
+        <phrase id="radio_empty" value="Nenhum valor selecionado" />
+        <phrase id="checkbox_empty" value="Nenhum valor selecionado" />
+        <phrase id="select_empty" value="Nenhum valor selecionado" />
+        <phrase id="string_empty" value="Valor vazio" />
+        <phrase id="string_exceed_min_length" value="Deve conter pelo menos {0} caracters" />
+        <phrase id="string_exceed_max_length" value="Não deve conter mais do que {0} caracters" />
+        <phrase id="string_invalid_format" value="Formato Inválido ({0})" />
+        <phrase id="number_nan" value="Não é um número" />
+        <phrase id="number_not_integer" value="Não é um número inteiro" />
+        <phrase id="number_not_double" value="Não é um número real" />
+        <phrase id="number_exceed_min" value="Deve ser maior que {0}" />
+        <phrase id="number_exceed_max" value="Deve ser menor que {0}" />
+        <phrase id="number_wrong_step" value="Deve ser um múltiplo de {0}" />
+        <phrase id="number_between_invalid" value="Valores inválidos, {0} é melhor que {1}" />
+        <phrase id="datetime_empty" value="Valor vazio" />
+        <phrase id="datetime_invalid" value="Formato de data inválido ({0})" />
+        <phrase id="datetime_exceed_min" value="Deve estar depois {0}" />
+        <phrase id="datetime_exceed_max" value="Deve ser antes {0}" />
+        <phrase id="datetime_between_invalid" value="Valores Inválidos, {0} é melhor que {1}" />
+        <phrase id="boolean_not_valid" value="Não é um booleano" />'
+            <phrase id="operator_not_multiple" value="Operador '{1}' não pode aceitar vários valores" /></errors>
+    </querybuilderjs>
+    <!-- FullCalendar -->
+    <!-- v2023 -->
+    <fullcalendar>
+      <week>
+        <phrase id="dow" value="0" />
+        <!-- Integer. Day of the week. Sunday=0, Monday=1, Tuesday=2, etc. -->
+        <phrase id="doy" value="4" />
+        <!-- Integer. Day of year. Number of days need to be within the year to be considered the first week -->
+      </week>
+      <buttonText>
+        <phrase id="prev" value="anterior" />
+        <phrase id="next" value="próximo" />
+        <phrase id="prevYear" value="ano anterior" />
+        <phrase id="nextYear" value="próximo ano" />
+        <phrase id="year" value="ano" />
+        <phrase id="today" value="hoje" />
+        <phrase id="month" value="mês" />
+        <phrase id="week" value="semana" />
+        <phrase id="day" value="dia" />
+        <phrase id="list" value="lista" />
+      </buttonText>
+      <buttonHints>
+        <phrase id="prev" value="Anterior $0" />
+        <!-- Do not translate '$0' -->
+        <phrase id="next" value="Próximo $0" />
+        <!-- Do not translate '$0' -->
+      </buttonHints>
+      <phrase id="weekText" value="S" />
+      <phrase id="weekTextLong" value="Semana" />
+      <phrase id="closeHint" value="Fechar" />
+      <phrase id="timeHint" value="Tempo" />
+      <phrase id="eventHint" value="Evento" />
+      <phrase id="allDayText" value="todo-dia" />
+      <phrase id="moreLinkText" value="mais" />
+      <phrase id="noEventsText" value="Sem eventos para exibir" />
+      <phrase id="viewHint" value="$0 visualizar" />
+      <!-- Do not translate '$0' -->
+      <phrase id="navLinkHint" value="Vá para $0" />
+      <!-- Do not translate '$0' -->
+    </fullcalendar>
+  </global>
+  <project>
+    <phrase id="bodytitle" value="Sistema de Gerenciamento da Qualidade" />
+    <phrase id="footertext" value="&amp;copy;Wander - Jan/2023. Reprodução Proibida." />
+    <menu id="171">
+      <phrase id="menutext" value="view plano auditoria" />
+    </menu>
+    <menu id="169">
+      <phrase id="menutext" value="view relatorio aud int" />
+    </menu>
+    <menu id="168">
+      <phrase id="menutext" value="Auditoria" />
+    </menu>
+    <menu id="67">
+      <phrase id="menutext" value="Analise Critica" />
+    </menu>
+    <menu id="66">
+      <phrase id="menutext" value="Aud Interna" />
+    </menu>
+    <menu id="69">
+      <phrase id="menutext" value="Plano Aud Int" />
+    </menu>
+    <menu id="70">
+      <phrase id="menutext" value="Relatorio Aud Int" />
+    </menu>
+    <menu id="68">
+      <phrase id="menutext" value="Plano" />
+    </menu>
+    <menu id="121">
+      <phrase id="menutext" value="Contexto Org" />
+    </menu>
+    <menu id="50">
+      <phrase id="menutext" value="Analise Negocio" />
+    </menu>
+    <menu id="56">
+      <phrase id="menutext" value="Analise SWOT" />
+    </menu>
+    <menu id="51">
+      <phrase id="menutext" value="Obj Qualidade" />
+    </menu>
+    <menu id="7">
+      <phrase id="menutext" value="Processos" />
+    </menu>
+    <menu id="14">
+      <phrase id="menutext" value="Documentos" />
+    </menu>
+    <menu id="4">
+      <phrase id="menutext" value="Doc Interno" />
+    </menu>
+    <menu id="3">
+      <phrase id="menutext" value="Doc Externo" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="Registros" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="Revisão" />
+    </menu>
+    <menu id="49">
+      <phrase id="menutext" value="Mudanças" />
+    </menu>
+    <menu id="65">
+      <phrase id="menutext" value="Auditoria Interna" />
+    </menu>
+    <menu id="17">
+      <phrase id="menutext" value="Indicadores" />
+    </menu>
+    <menu id="47">
+      <phrase id="menutext" value="Não Conformidade" />
+    </menu>
+    <menu id="23">
+      <phrase id="menutext" value="Riscos/Oport" />
+    </menu>
+    <menu id="10">
+      <phrase id="menutext" value="Tabelas" />
+    </menu>
+    <menu id="2">
+      <phrase id="menutext" value="Categoria de Documentos" />
+    </menu>
+    <menu id="54">
+      <phrase id="menutext" value="Considerações" />
+    </menu>
+    <menu id="57">
+      <phrase id="menutext" value="Competência" />
+    </menu>
+    <menu id="45">
+      <phrase id="menutext" value="Departamentos" />
+    </menu>
+    <menu id="6">
+      <phrase id="menutext" value="Localização Documento" />
+    </menu>
+    <menu id="9">
+      <phrase id="menutext" value="Status Documento" />
+    </menu>
+    <menu id="41">
+      <phrase id="menutext" value="Risco/Oportunidade" />
+    </menu>
+    <menu id="19">
+      <phrase id="menutext" value="Ações" />
+    </menu>
+    <menu id="20">
+      <phrase id="menutext" value="Frequencia" />
+    </menu>
+    <menu id="21">
+      <phrase id="menutext" value="Severidade" />
+    </menu>
+    <menu id="22">
+      <phrase id="menutext" value="Origem" />
+    </menu>
+    <menu id="42">
+      <phrase id="menutext" value="Periodicidade" />
+    </menu>
+    <menu id="25">
+      <phrase id="menutext" value="Tipo " />
+    </menu>
+    <menu id="24">
+      <phrase id="menutext" value="Status" />
+    </menu>
+    <menu id="64">
+      <phrase id="menutext" value="Unidade de Medida" />
+    </menu>
+    <menu id="11">
+      <phrase id="menutext" value="Segurança" />
+    </menu>
+    <menu id="1">
+      <phrase id="menutext" value="Usuários" />
+    </menu>
+    <menu id="53">
+      <phrase id="menutext" value="Permissões" />
+    </menu>
+    <menu id="52">
+      <phrase id="menutext" value="Tabelas de Permissões" />
+    </menu>
+    <menu id="16">
+      <phrase id="menutext" value="Relatórios" />
+    </menu>
+    <menu id="55">
+      <phrase id="menutext" value="Analise de Swot" />
+    </menu>
+    <menu id="59">
+      <phrase id="menutext" value="Indicadores Gráficos" />
+    </menu>
+    <menu id="58">
+      <phrase id="menutext" value="Indices/Gráficos" />
+    </menu>
+    <menu id="172">
+      <phrase id="menutext" value="Plano Auditoria Interna" />
+    </menu>
+    <menu id="63">
+      <phrase id="menutext" value="Processos Existentes" />
+    </menu>
+    <menu id="62">
+      <phrase id="menutext" value="Processos x Indicadores" />
+    </menu>
+    <menu id="170">
+      <phrase id="menutext" value="Relatório de  Aud Int" />
+    </menu>
+    <menu id="61">
+      <phrase id="menutext" value="view processo indicador" />
+    </menu>
+    <menu id="48">
+      <phrase id="menutext" value="Plano de Ação" />
+    </menu>
+    <menu id="46">
+      <phrase id="menutext" value="Plano de Ação" />
+    </menu>
+    <menu id="18">
+      <phrase id="menutext" value="Indicadores" />
+    </menu>
+    <menu id="44">
+      <phrase id="menutext" value="Analise SWOT" />
+    </menu>
+    <table id="acao_risco_oportunidade">
+      <phrase id="tblcaption" value="Ações - Risco/Oportunidades" />
+      <field id="idacao_risco_oportunidade">
+        <phrase id="fldcaption" value="idacao risco oportunidade" />
+      </field>
+      <field id="tipo_risco_oportunidade_idtipo_risco_oportunidade">
+        <phrase id="fldcaption" value="Tipo" />
+      </field>
+      <field id="acao">
+        <phrase id="fldcaption" value="Ação" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observações" />
+      </field>
+    </table>
+    <table id="analise_negocio">
+      <phrase id="tblcaption" value="Analise do Negocio" />
+      <field id="idanalise_negocio">
+        <phrase id="fldcaption" value="idanalise negocio" />
+      </field>
+      <field id="item">
+        <phrase id="fldcaption" value="Objeto" />
+      </field>
+      <field id="descrever">
+        <phrase id="fldcaption" value="Descrever Objeto" />
+      </field>
+      <field id="posicao">
+        <phrase id="fldcaption" value="Posição" />
+      </field>
+    </table>
+    <table id="analise_swot">
+      <phrase id="tblcaption" value="Analise de Swot" />
+      <field id="idanalise_swot">
+        <phrase id="fldcaption" value="idanalise swot" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="fatores">
+        <phrase id="fldcaption" value="Fatores Int/Ext" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Fatores Internos" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Fatores Externos" />
+      </field>
+      <field id="ponto">
+        <phrase id="fldcaption" value="Pontos" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Ponto Forte" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Ponto Fraco" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="Oportunidade" />
+        <phrase id="fldtagvalue4" value="4" />
+        <phrase id="fldtagcaption4" value="Ameaça" />
+      </field>
+      <field id="analise">
+        <phrase id="fldcaption" value="Detalhar" />
+      </field>
+      <field id="impacto_idimpacto">
+        <phrase id="fldcaption" value="Severidade" />
+      </field>
+      <field id="contexto_idcontexto">
+        <phrase id="fldcaption" value="IdContexto" />
+      </field>
+    </table>
+    <table id="categoria_documento">
+      <phrase id="tblcaption" value="Categoria de Documentos" />
+      <field id="idcategoria_documento">
+        <phrase id="fldcaption" value="idcategoria documento" />
+      </field>
+      <field id="categoria">
+        <phrase id="fldcaption" value="Categoria" />
+        <phrase id="flderrmsg" value="Já Cadastrado !!!" />
+      </field>
+      <field id="sigla">
+        <phrase id="fldcaption" value="Sigla" />
+        <phrase id="flderrmsg" value="Já Cadastrado !!!" />
+      </field>
+    </table>
+    <table id="competencia">
+      <phrase id="tblcaption" value="Competencia" />
+      <field id="idcompetencia">
+        <phrase id="fldcaption" value="idcompetencia" />
+      </field>
+      <field id="mes">
+        <phrase id="fldcaption" value="Mês" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Jan" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Fev" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="Mar" />
+        <phrase id="fldtagvalue4" value="4" />
+        <phrase id="fldtagcaption4" value="Abr" />
+        <phrase id="fldtagvalue5" value="5" />
+        <phrase id="fldtagcaption5" value="Mai" />
+        <phrase id="fldtagvalue6" value="6" />
+        <phrase id="fldtagcaption6" value="Jun" />
+        <phrase id="fldtagvalue7" value="7" />
+        <phrase id="fldtagcaption7" value="Jul" />
+        <phrase id="fldtagvalue8" value="8" />
+        <phrase id="fldtagcaption8" value="Ago" />
+        <phrase id="fldtagvalue9" value="9" />
+        <phrase id="fldtagcaption9" value="Set" />
+        <phrase id="fldtagvalue10" value="10" />
+        <phrase id="fldtagcaption10" value="Out" />
+        <phrase id="fldtagvalue11" value="11" />
+        <phrase id="fldtagcaption11" value="Nov" />
+        <phrase id="fldtagvalue12" value="12" />
+        <phrase id="fldtagcaption12" value="Dez" />
+      </field>
+      <field id="ano">
+        <phrase id="fldcaption" value="Ano" />
+        <phrase id="fldtagvalue1" value="2022" />
+        <phrase id="fldtagcaption1" value="2022" />
+        <phrase id="fldtagvalue2" value="2023" />
+        <phrase id="fldtagcaption2" value="2023" />
+        <phrase id="fldtagvalue3" value="2024" />
+        <phrase id="fldtagcaption3" value="2024" />
+        <phrase id="fldtagvalue4" value="2025" />
+        <phrase id="fldtagcaption4" value="2025" />
+        <phrase id="fldtagvalue5" value="2026" />
+        <phrase id="fldtagcaption5" value="2026" />
+      </field>
+      <field id="data_base">
+        <phrase id="fldcaption" value="Data Base" />
+        <phrase id="flderrmsg" value="Data Base Já Cadastrada !!!" />
+      </field>
+    </table>
+    <table id="consideracoes">
+      <phrase id="tblcaption" value="Considerações Importantes" />
+      <field id="idconsideracoes">
+        <phrase id="fldcaption" value="idconsideracoes" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Rotina" />
+      </field>
+      <field id="consideracao">
+        <phrase id="fldcaption" value="Considerações" />
+      </field>
+    </table>
+    <table id="contexto">
+      <phrase id="tblcaption" value="Contexto da Organização" />
+      <field id="idcontexto">
+        <phrase id="fldcaption" value="idcontexto" />
+      </field>
+      <field id="ano">
+        <phrase id="fldcaption" value="Relativo Ano" />
+        <phrase id="fldtagvalue1" value="2022" />
+        <phrase id="fldtagcaption1" value="2022" />
+        <phrase id="fldtagvalue2" value="2023" />
+        <phrase id="fldtagcaption2" value="2023" />
+        <phrase id="fldtagvalue3" value="2024" />
+        <phrase id="fldtagcaption3" value="2024" />
+        <phrase id="fldtagvalue4" value="2025" />
+        <phrase id="fldtagcaption4" value="2025" />
+      </field>
+      <field id="revisao">
+        <phrase id="fldcaption" value="Revisão Nr" />
+        <phrase id="fldtagvalue1" value="00" />
+        <phrase id="fldtagcaption1" value="00" />
+        <phrase id="fldtagvalue2" value="01" />
+        <phrase id="fldtagcaption2" value="01" />
+        <phrase id="fldtagvalue3" value="02" />
+        <phrase id="fldtagcaption3" value="02" />
+        <phrase id="fldtagvalue4" value="03" />
+        <phrase id="fldtagcaption4" value="03" />
+        <phrase id="fldtagvalue5" value="04" />
+        <phrase id="fldtagcaption5" value="04" />
+        <phrase id="fldtagvalue6" value="05" />
+        <phrase id="fldtagcaption6" value="05" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Dt Revisão" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Elaborador:" />
+      </field>
+      <field id="usuario_idusuario1">
+        <phrase id="fldcaption" value="Aprovador:" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observação" />
+      </field>
+    </table>
+    <table id="departamentos">
+      <phrase id="tblcaption" value="Departamentos" />
+      <field id="iddepartamentos">
+        <phrase id="fldcaption" value="iddepartamentos" />
+      </field>
+      <field id="departamento">
+        <phrase id="fldcaption" value="Departamento" />
+        <phrase id="flderrmsg" value="Já Cadastrado !!!" />
+      </field>
+    </table>
+    <table id="documento_externo">
+      <phrase id="tblcaption" value="Documentos Externo" />
+      <field id="iddocumento_externo">
+        <phrase id="fldcaption" value="IdDocExt" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Cadastrado Em:" />
+      </field>
+      <field id="titulo_documento">
+        <phrase id="fldcaption" value="Titulo Documento" />
+      </field>
+      <field id="distribuicao">
+        <phrase id="fldcaption" value="Distribuição" />
+        <phrase id="fldtagvalue1" value="Eletronica" />
+        <phrase id="fldtagcaption1" value="Eletronica" />
+        <phrase id="fldtagvalue2" value="Fisica" />
+        <phrase id="fldtagcaption2" value="Fisica" />
+      </field>
+      <field id="tem_validade">
+        <phrase id="fldcaption" value="Validade?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="valido_ate">
+        <phrase id="fldcaption" value="Valido Até:" />
+      </field>
+      <field id="restringir_acesso">
+        <phrase id="fldcaption" value="Restringir Acesso?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="localizacao_idlocalizacao">
+        <phrase id="fldcaption" value="Localização" />
+      </field>
+      <field id="usuario_responsavel">
+        <phrase id="fldcaption" value="Responsável" />
+      </field>
+      <field id="anexo">
+        <phrase id="fldcaption" value="Anexo" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observação" />
+      </field>
+    </table>
+    <table id="documento_interno">
+      <phrase id="tblcaption" value="Documentos Interno" />
+      <field id="iddocumento_interno">
+        <phrase id="fldcaption" value="IdDocInt" />
+      </field>
+      <field id="titulo_documento">
+        <phrase id="fldcaption" value="Titulo Documento" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="restringir_acesso">
+        <phrase id="fldcaption" value="Restingir Acesso?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="categoria_documento_idcategoria_documento">
+        <phrase id="fldcaption" value="Categoria" />
+      </field>
+      <field id="processo_idprocesso">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Usuário" />
+      </field>
+    </table>
+    <table id="documento_registro">
+      <phrase id="tblcaption" value="Registros" />
+      <field id="iddocumento_registro">
+        <phrase id="fldcaption" value="IdRegistro" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo do Registro" />
+      </field>
+      <field id="categoria_documento_idcategoria_documento">
+        <phrase id="fldcaption" value="Categoria" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Responsável" />
+      </field>
+      <field id="anexo">
+        <phrase id="fldcaption" value="Anexo" />
+      </field>
+    </table>
+    <table id="frequencia">
+      <phrase id="tblcaption" value="Frequencia" />
+      <field id="idfrequencia">
+        <phrase id="fldcaption" value="idfrequencia" />
+      </field>
+      <field id="frequencia">
+        <phrase id="fldcaption" value="Frequencia" />
+      </field>
+      <field id="grau">
+        <phrase id="fldcaption" value="Grau [3,5,7,9]" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observação" />
+      </field>
+    </table>
+    <table id="gestao_mudanca">
+      <phrase id="tblcaption" value="Gestão de Mudanças" />
+      <field id="idgestao_mudanca">
+        <phrase id="fldcaption" value="IdMudança" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo da Mudança" />
+      </field>
+      <field id="dt_inicio">
+        <phrase id="fldcaption" value="Inicio" />
+      </field>
+      <field id="detalhamento">
+        <phrase id="fldcaption" value="Detalhamento da Mudança" />
+      </field>
+      <field id="impacto">
+        <phrase id="fldcaption" value="Impactos" />
+      </field>
+      <field id="motivo">
+        <phrase id="fldcaption" value="Justificativa" />
+      </field>
+      <field id="recursos">
+        <phrase id="fldcaption" value="Recuros R$" />
+      </field>
+      <field id="prazo_ate">
+        <phrase id="fldcaption" value="Prazo" />
+      </field>
+      <field id="departamentos_iddepartamentos">
+        <phrase id="fldcaption" value="Depto Responsavel" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Autorização" />
+      </field>
+      <field id="implementado">
+        <phrase id="fldcaption" value="Implementada?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Pendente" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Em Andamento" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="Concluido" />
+      </field>
+      <field id="eficaz">
+        <phrase id="fldcaption" value="Eficaz?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="graficos">
+      <phrase id="tblcaption" value="Indices/Gráficos" />
+      <phrase id="tblpagecaption1" value="Valolres Gráfico" />
+      <phrase id="tblpagecaption2" value="Observações" />
+      <chart id="evidenciasxmes">
+        <phrase id="chartcaption" value="Evidencias x Mes" />
+        <phrase id="chartxaxisname" value="Mes/Ano" />
+        <phrase id="chartyaxisname" value="Quantidades" />
+      </chart>
+      <field id="idgraficos">
+        <phrase id="fldcaption" value="idgraficos" />
+      </field>
+      <field id="competencia_idcompetencia">
+        <phrase id="fldcaption" value="Competencia" />
+      </field>
+      <field id="indicadores_idindicadores">
+        <phrase id="fldcaption" value="Indicador" />
+      </field>
+      <field id="data_base">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="valor">
+        <phrase id="fldcaption" value="Valor" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observações" />
+      </field>
+    </table>
+    <table id="impacto">
+      <phrase id="tblcaption" value="Severidade" />
+      <field id="idimpacto">
+        <phrase id="fldcaption" value="idimpacto" />
+      </field>
+      <field id="tipo_risco_oportunidade_idtipo_risco_oportunidade">
+        <phrase id="fldcaption" value="Tipo" />
+      </field>
+      <field id="impacto">
+        <phrase id="fldcaption" value="Severidade" />
+      </field>
+      <field id="grau">
+        <phrase id="fldcaption" value="Grau [3,5,7,9]" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observações" />
+      </field>
+    </table>
+    <table id="indicadores">
+      <phrase id="tblcaption" value="Indicadores" />
+      <field id="idindicadores">
+        <phrase id="fldcaption" value="IdIndicador" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="indicador">
+        <phrase id="fldcaption" value="Nome do Indicador" />
+        <phrase id="flderrmsg" value="Indicador Já Cadastrado !!!" />
+      </field>
+      <field id="periodicidade_idperiodicidade">
+        <phrase id="fldcaption" value="Periodicidade" />
+      </field>
+      <field id="unidade_medida_idunidade_medida">
+        <phrase id="fldcaption" value="Medida" />
+      </field>
+      <field id="meta">
+        <phrase id="fldcaption" value="Meta" />
+      </field>
+    </table>
+    <table id="localizacao">
+      <phrase id="tblcaption" value="Localização Documento" />
+      <field id="idlocalizacao">
+        <phrase id="fldcaption" value="idlocalizacao" />
+      </field>
+      <field id="localizacao">
+        <phrase id="fldcaption" value="Localização" />
+        <phrase id="flderrmsg" value="Já Cadastrado !!!" />
+      </field>
+      <field id="ativo">
+        <phrase id="fldcaption" value="Ativo?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="nao_conformidade">
+      <phrase id="tblcaption" value="Não Conformidade" />
+      <field id="idnao_conformidade">
+        <phrase id="fldcaption" value="IdNC" />
+      </field>
+      <field id="dt_ocorrencia">
+        <phrase id="fldcaption" value="Dt_Ocorrencia" />
+      </field>
+      <field id="tipo">
+        <phrase id="fldcaption" value="Tipo" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Real" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Potencial" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="Op Melhoria" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo" />
+        <phrase id="flderrmsg" value="Titulo já Cadastrado !!!" />
+      </field>
+      <field id="processo_idprocesso">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="ocorrencia">
+        <phrase id="fldcaption" value="Descreva Ocorrencia" />
+      </field>
+      <field id="origem_risco_oportunidade_idorigem_risco_oportunidade">
+        <phrase id="fldcaption" value="Origem" />
+      </field>
+      <field id="acao_imediata">
+        <phrase id="fldcaption" value="Ação Imediata" />
+      </field>
+      <field id="causa_raiz">
+        <phrase id="fldcaption" value="Causa Raiz" />
+      </field>
+      <field id="departamentos_iddepartamentos">
+        <phrase id="fldcaption" value="Resp Aprovação" />
+      </field>
+      <field id="anexo">
+        <phrase id="fldcaption" value="Anexo" />
+      </field>
+      <field id="status_nc">
+        <phrase id="fldcaption" value="Status" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Pendente" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Em Andamento" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="Concluida" />
+      </field>
+      <field id="plano_acao">
+        <phrase id="fldcaption" value="Plano Ação?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="objetivo_qualidade">
+      <phrase id="tblcaption" value="Objetivos da Qualidade" />
+      <field id="idobjetivo_qualidade">
+        <phrase id="fldcaption" value="idobjetivo qualidade" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="processo_idprocesso">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="objetivo">
+        <phrase id="fldcaption" value="Objetivos" />
+      </field>
+      <field id="como_medir">
+        <phrase id="fldcaption" value="Como Medir?" />
+      </field>
+      <field id="o_q_sera_feito">
+        <phrase id="fldcaption" value="O que Será Feito" />
+      </field>
+      <field id="como_avaliar">
+        <phrase id="fldcaption" value="Como Avaliar?" />
+      </field>
+      <field id="departamentos_iddepartamentos">
+        <phrase id="fldcaption" value="Responsável" />
+      </field>
+    </table>
+    <table id="origem_risco_oportunidade">
+      <phrase id="tblcaption" value="Origem [Risco/Oportunidade]" />
+      <field id="idorigem_risco_oportunidade">
+        <phrase id="fldcaption" value="idorigem risco oportunidade" />
+      </field>
+      <field id="origem">
+        <phrase id="fldcaption" value="Origem" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observações" />
+      </field>
+    </table>
+    <table id="periodicidade">
+      <phrase id="tblcaption" value="Periodicidade" />
+      <field id="idperiodicidade">
+        <phrase id="fldcaption" value="idperiodicidade" />
+      </field>
+      <field id="periodicidade">
+        <phrase id="fldcaption" value="Periodicidade " />
+      </field>
+    </table>
+    <table id="plano_acao">
+      <phrase id="tblcaption" value="Plano de Ação" />
+      <field id="idplano_acao">
+        <phrase id="fldcaption" value="IdPlROp" />
+      </field>
+      <field id="risco_oportunidade_idrisco_oportunidade">
+        <phrase id="fldcaption" value="Titulo" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="o_q_sera_feito">
+        <phrase id="fldcaption" value="O que Será Feito?" />
+      </field>
+      <field id="efeito_esperado">
+        <phrase id="fldcaption" value="Efeito Esperado" />
+      </field>
+      <field id="departamentos_iddepartamentos">
+        <phrase id="fldcaption" value="Quem Fara?" />
+      </field>
+      <field id="origem_risco_oportunidade_idorigem_risco_oportunidade">
+        <phrase id="fldcaption" value="Origem" />
+      </field>
+      <field id="recursos_nec">
+        <phrase id="fldcaption" value="Recursos R$" />
+      </field>
+      <field id="dt_limite">
+        <phrase id="fldcaption" value="Dt_Limite" />
+      </field>
+      <field id="implementado">
+        <phrase id="fldcaption" value="Implementado?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="periodicidade_idperiodicidade">
+        <phrase id="fldcaption" value="Reavaliação" />
+      </field>
+      <field id="eficaz">
+        <phrase id="fldcaption" value="Eficaz?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="plano_acao_nc">
+      <phrase id="tblcaption" value="Plano de Ação" />
+      <phrase id="tblpagecaption1" value="Plano Ação" />
+      <phrase id="tblpagecaption2" value="Eficaz/Evidencia" />
+      <field id="idplano_acao_nc">
+        <phrase id="fldcaption" value="IdPlNC" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="nao_conformidade_idnao_conformidade">
+        <phrase id="fldcaption" value="Titulo" />
+      </field>
+      <field id="o_q_sera_feito">
+        <phrase id="fldcaption" value="O que Será Feito?" />
+      </field>
+      <field id="efeito_esperado">
+        <phrase id="fldcaption" value="Porque será Feito?" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Quem Fará:" />
+      </field>
+      <field id="recursos_nec">
+        <phrase id="fldcaption" value="Recrusos R$" />
+      </field>
+      <field id="dt_limite">
+        <phrase id="fldcaption" value="Dt_Limite" />
+      </field>
+      <field id="implementado">
+        <phrase id="fldcaption" value="Implementado?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="eficaz">
+        <phrase id="fldcaption" value="Eficaz?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="evidencia">
+        <phrase id="fldcaption" value="Evidencia" />
+      </field>
+    </table>
+    <table id="processo">
+      <phrase id="tblcaption" value="Processos" />
+      <phrase id="tblpagecaption1" value="Objetivos do Processo" />
+      <phrase id="tblpagecaption2" value="Entradas" />
+      <phrase id="tblpagecaption3" value="Atv Principal/Saídas" />
+      <phrase id="tblpagecaption4" value="Riscos e Oportunidades" />
+      <phrase id="tblpagecaption5" value="Propriedade Ext/Conhecimentos" />
+      <field id="idprocesso">
+        <phrase id="fldcaption" value="idprocesso" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+        <phrase id="flderrmsg" value="Processo Já Cadastrado !!!" />
+      </field>
+      <field id="responsaveis">
+        <phrase id="fldcaption" value="Responsaveis" />
+      </field>
+      <field id="objetivo">
+        <phrase id="fldcaption" value="Objetivos" />
+      </field>
+      <field id="processo_antes">
+        <phrase id="fldcaption" value="Processo Anterior" />
+      </field>
+      <field id="processo_depois">
+        <phrase id="fldcaption" value="Processo Posterior" />
+      </field>
+      <field id="eqpto_recursos">
+        <phrase id="fldcaption" value="Equipamentos e Recursos" />
+      </field>
+      <field id="entradas">
+        <phrase id="fldcaption" value="Entradas" />
+      </field>
+      <field id="atividade_principal">
+        <phrase id="fldcaption" value="Atividades Principal" />
+      </field>
+      <field id="saidas_resultados">
+        <phrase id="fldcaption" value="Saídas/Resultados" />
+      </field>
+      <field id="requsito_saidas">
+        <phrase id="fldcaption" value="Requisitos de Saída" />
+      </field>
+      <field id="riscos">
+        <phrase id="fldcaption" value="Riscos" />
+      </field>
+      <field id="oportunidades">
+        <phrase id="fldcaption" value="Oportunidades" />
+      </field>
+      <field id="propriedade_externa">
+        <phrase id="fldcaption" value="Propriedade Externa" />
+      </field>
+      <field id="conhecimentos">
+        <phrase id="fldcaption" value="Conhecimentos" />
+      </field>
+      <field id="documentos_aplicados">
+        <phrase id="fldcaption" value="Documentos Aplicados" />
+      </field>
+    </table>
+    <table id="processo_indicadores">
+      <phrase id="tblcaption" value="Indicadores" />
+      <field id="idprocesso_indicadores">
+        <phrase id="fldcaption" value="idprocesso indicadores" />
+      </field>
+      <field id="processo_idprocesso">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="indicadores_idindicadores">
+        <phrase id="fldcaption" value="Indicador" />
+      </field>
+    </table>
+    <table id="rel_analise_swot">
+      <phrase id="tblcaption" value="Analise de Swot" />
+      <field id="idanalise_swot">
+        <phrase id="fldcaption" value="idanalise swot" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="fatores">
+        <phrase id="fldcaption" value="Fatores Int/Ext" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Fatores Internos" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Fatores Externos" />
+      </field>
+      <field id="ponto">
+        <phrase id="fldcaption" value="Pontos" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Ponto Forte" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Ponto Fraco" />
+        <phrase id="fldtagvalue3" value="3" />
+        <phrase id="fldtagcaption3" value="Oportunidade" />
+        <phrase id="fldtagvalue4" value="4" />
+        <phrase id="fldtagcaption4" value="Ameaça" />
+      </field>
+      <field id="analise">
+        <phrase id="fldcaption" value="Detalhar" />
+      </field>
+      <field id="impacto_idimpacto">
+        <phrase id="fldcaption" value="Severidade" />
+      </field>
+      <field id="contexto_idcontexto">
+        <phrase id="fldcaption" value="Contexto -&gt; ANO" />
+      </field>
+    </table>
+    <table id="rel_cross_grafico">
+      <phrase id="tblcaption" value="Indicadores Gráficos" />
+      <chart id="evidenciaxmensal">
+        <phrase id="chartcaption" value="Evidencia x Mensal" />
+        <phrase id="chartxaxisname" value="M e s" />
+        <phrase id="chartyaxisname" value="Quantidade" />
+      </chart>
+      <field id="idgraficos">
+        <phrase id="fldcaption" value="idgraficos" />
+      </field>
+      <field id="competencia_idcompetencia">
+        <phrase id="fldcaption" value="Competencia" />
+      </field>
+      <field id="indicadores_idindicadores">
+        <phrase id="fldcaption" value="Indicador" />
+      </field>
+      <field id="data_base">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="valor">
+        <phrase id="fldcaption" value="Valor" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Observações" />
+      </field>
+    </table>
+    <table id="revisao_documento">
+      <phrase id="tblcaption" value="Revisão" />
+      <field id="idrevisao_documento">
+        <phrase id="fldcaption" value="idrevisao documento" />
+      </field>
+      <field id="documento_interno_iddocumento_interno">
+        <phrase id="fldcaption" value="Doc Interno" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Elaborado Em:" />
+      </field>
+      <field id="qual_alteracao">
+        <phrase id="fldcaption" value="Descreva Modificação" />
+      </field>
+      <field id="status_documento_idstatus_documento">
+        <phrase id="fldcaption" value="Status Doc" />
+      </field>
+      <field id="revisao_nr">
+        <phrase id="fldcaption" value="Revisão Nr" />
+      </field>
+      <field id="usuario_elaborador">
+        <phrase id="fldcaption" value="Elaborado Por:" />
+      </field>
+      <field id="usuario_aprovador">
+        <phrase id="fldcaption" value="Aprovado Por:" />
+      </field>
+      <field id="dt_aprovacao">
+        <phrase id="fldcaption" value="Aprovado Em:" />
+      </field>
+      <field id="anexo">
+        <phrase id="fldcaption" value="Anexo" />
+      </field>
+    </table>
+    <table id="risco_oportunidade">
+      <phrase id="tblcaption" value="Gestão Risco ou Oportunidade" />
+      <chart id="severidade">
+        <phrase id="chartcaption" value="Severidade" />
+        <phrase id="chartxaxisname" value="Severidade" />
+        <phrase id="chartyaxisname" value="Severidade" />
+      </chart>
+      <chart id="grauatencao">
+        <phrase id="chartcaption" value="Grau Atenção" />
+        <phrase id="chartxaxisname" value="Grau Atenção" />
+        <phrase id="chartyaxisname" value="Contagem" />
+      </chart>
+      <field id="idrisco_oportunidade">
+        <phrase id="fldcaption" value="IdRiscoOp" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="tipo_risco_oportunidade_idtipo_risco_oportunidade">
+        <phrase id="fldcaption" value="Tipo" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo" />
+        <phrase id="flderrmsg" value="Titulo já Cadastrado !!!" />
+      </field>
+      <field id="origem_risco_oportunidade_idorigem_risco_oportunidade">
+        <phrase id="fldcaption" value="Origem" />
+      </field>
+      <field id="descricao">
+        <phrase id="fldcaption" value="Descrever Risco ou Oportunidade" />
+      </field>
+      <field id="consequencia">
+        <phrase id="fldcaption" value="Consequencias" />
+      </field>
+      <field id="frequencia_idfrequencia">
+        <phrase id="fldcaption" value="Frequencia" />
+      </field>
+      <field id="impacto_idimpacto">
+        <phrase id="fldcaption" value="Severidade" />
+      </field>
+      <field id="grau_atencao">
+        <phrase id="fldcaption" value="Grau Atenção" />
+      </field>
+      <field id="acao_risco_oportunidade_idacao_risco_oportunidade">
+        <phrase id="fldcaption" value="Ação" />
+      </field>
+      <field id="plano_acao">
+        <phrase id="fldcaption" value="Plano Ação?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="status_acao">
+      <phrase id="tblcaption" value="Status da Ação" />
+      <field id="idstatus_acao">
+        <phrase id="fldcaption" value="idstatus acao" />
+      </field>
+      <field id="status_acao">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+    </table>
+    <table id="status_documento">
+      <phrase id="tblcaption" value="Status Documento" />
+      <field id="idstatus_documento">
+        <phrase id="fldcaption" value="idstatus documento" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+        <phrase id="flderrmsg" value="Já Cadastrado !!!" />
+      </field>
+    </table>
+    <table id="tipo_risco_oportunidade">
+      <phrase id="tblcaption" value="Tipo Risco/Oportunidade" />
+      <field id="idtipo_risco_oportunidade">
+        <phrase id="fldcaption" value="idtipo risco oportunidade" />
+      </field>
+      <field id="tipo_risco_oportunidade">
+        <phrase id="fldcaption" value="Tipo Risco/Oportunidade" />
+      </field>
+    </table>
+    <table id="userlevelpermissions">
+      <phrase id="tblcaption" value="Tabelas de Permissões" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="User Level ID" />
+      </field>
+      <field id="_tablename">
+        <phrase id="fldcaption" value="Table Name" />
+      </field>
+      <field id="_permission">
+        <phrase id="fldcaption" value="Permission" />
+      </field>
+    </table>
+    <table id="userlevels">
+      <phrase id="tblcaption" value="Usuários/Permissões" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="User Level ID" />
+      </field>
+      <field id="userlevelname">
+        <phrase id="fldcaption" value="User Level Name" />
+      </field>
+    </table>
+    <table id="usuario">
+      <phrase id="tblcaption" value="Usuários" />
+      <field id="idusuario">
+        <phrase id="fldcaption" value="idusuario" />
+      </field>
+      <field id="nome">
+        <phrase id="fldcaption" value="Nome/Sobrenome" />
+      </field>
+      <field id="_login">
+        <phrase id="fldcaption" value="Login" />
+      </field>
+      <field id="senha">
+        <phrase id="fldcaption" value="Senha" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="ativo">
+        <phrase id="fldcaption" value="Ativo?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="view_processo_indicador">
+      <phrase id="tblcaption" value="view processo indicador" />
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+        <phrase id="flderrmsg" value="Processo Já Cadastrado !!!" />
+      </field>
+      <field id="indicador">
+        <phrase id="fldcaption" value="Nome do Indicador" />
+        <phrase id="flderrmsg" value="Indicador Já Cadastrado !!!" />
+      </field>
+      <field id="periodicidade">
+        <phrase id="fldcaption" value="Periodicidade " />
+      </field>
+      <field id="unidade">
+        <phrase id="fldcaption" value="Medida" />
+      </field>
+      <field id="meta">
+        <phrase id="fldcaption" value="Meta" />
+      </field>
+    </table>
+    <table id="rel_processo_indicador">
+      <phrase id="tblcaption" value="Processos x Indicadores" />
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+        <phrase id="flderrmsg" value="Processo Já Cadastrado !!!" />
+      </field>
+      <field id="indicador">
+        <phrase id="fldcaption" value="Nome do Indicador" />
+        <phrase id="flderrmsg" value="Indicador Já Cadastrado !!!" />
+      </field>
+      <field id="periodicidade">
+        <phrase id="fldcaption" value="Periodicidade " />
+      </field>
+      <field id="unidade">
+        <phrase id="fldcaption" value="Medida" />
+      </field>
+      <field id="meta">
+        <phrase id="fldcaption" value="Meta" />
+      </field>
+    </table>
+    <table id="rel_processos">
+      <phrase id="tblcaption" value="Processos Existentes" />
+      <field id="idprocesso">
+        <phrase id="fldcaption" value="idprocesso" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+        <phrase id="flderrmsg" value="Processo Já Cadastrado !!!" />
+      </field>
+      <field id="responsaveis">
+        <phrase id="fldcaption" value="Responsaveis" />
+      </field>
+      <field id="objetivo">
+        <phrase id="fldcaption" value="Objetivos" />
+      </field>
+      <field id="processo_antes">
+        <phrase id="fldcaption" value="Processo Anterior" />
+      </field>
+      <field id="processo_depois">
+        <phrase id="fldcaption" value="Processo Posterior" />
+      </field>
+      <field id="eqpto_recursos">
+        <phrase id="fldcaption" value="Equipamentos e Recursos" />
+      </field>
+      <field id="entradas">
+        <phrase id="fldcaption" value="Entradas" />
+      </field>
+      <field id="atividade_principal">
+        <phrase id="fldcaption" value="Atividades Principal" />
+      </field>
+      <field id="saidas_resultados">
+        <phrase id="fldcaption" value="Saídas/Resultados" />
+      </field>
+      <field id="requsito_saidas">
+        <phrase id="fldcaption" value="Requisitos de Saída" />
+      </field>
+      <field id="riscos">
+        <phrase id="fldcaption" value="Riscos" />
+      </field>
+      <field id="oportunidades">
+        <phrase id="fldcaption" value="Oportunidades" />
+      </field>
+      <field id="propriedade_externa">
+        <phrase id="fldcaption" value="Propriedade Externa" />
+      </field>
+      <field id="conhecimentos">
+        <phrase id="fldcaption" value="Conhecimentos" />
+      </field>
+      <field id="documentos_aplicados">
+        <phrase id="fldcaption" value="Documentos Aplicados" />
+      </field>
+    </table>
+    <table id="unidade_medida">
+      <phrase id="tblcaption" value="Unidade de Medida" />
+      <field id="idunidade_medida">
+        <phrase id="fldcaption" value="idunidade medida" />
+      </field>
+      <field id="unidade">
+        <phrase id="fldcaption" value="Unidade" />
+      </field>
+    </table>
+    <table id="item_rel_aud_interna">
+      <phrase id="tblcaption" value="Auditoria Interna" />
+      <field id="iditem_rel_aud_interna">
+        <phrase id="fldcaption" value="Item" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Dt_Cadastro" />
+      </field>
+      <field id="processo_idprocesso">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="descricao">
+        <phrase id="fldcaption" value="Descrição" />
+      </field>
+      <field id="acao_imediata">
+        <phrase id="fldcaption" value="Ação Imediata" />
+      </field>
+      <field id="acao_contecao">
+        <phrase id="fldcaption" value="Ação de Contenção" />
+      </field>
+      <field id="abrir_nc">
+        <phrase id="fldcaption" value="Abrir NC?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Não" />
+      </field>
+      <field id="relatorio_auditoria_interna_idrelatorio_auditoria_interna">
+        <phrase id="fldcaption" value="Rel Aud Int" />
+      </field>
+    </table>
+    <table id="relatorio_auditoria_interna">
+      <phrase id="tblcaption" value="Auditoria Interna" />
+      <field id="idrelatorio_auditoria_interna">
+        <phrase id="fldcaption" value="AudInt Nr" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="origem_risco_oportunidade_idorigem_risco_oportunidade">
+        <phrase id="fldcaption" value="Origem" />
+      </field>
+      <field id="auditor">
+        <phrase id="fldcaption" value="Auditor Lider" />
+      </field>
+      <field id="aprovador">
+        <phrase id="fldcaption" value="Aprovador" />
+      </field>
+    </table>
+    <table id="analise_critica_direcao">
+      <phrase id="tblcaption" value="Analise Critica Direção" />
+      <phrase id="tblpagecaption1" value="Participantes/Responsável" />
+      <phrase id="tblpagecaption2" value="9.3.2 - Entradas de Analise Critica Direção" />
+      <phrase id="tblpagecaption3" value="9.3.3 - Saídas de Analise Critica Direção" />
+      <phrase id="tblpagecaption4" value="Anexos" />
+      <field id="idanalise_critica_direcao">
+        <phrase id="fldcaption" value="ACD Nr" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="participantes">
+        <phrase id="fldcaption" value="Participantes" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Aprovador:" />
+      </field>
+      <field id="situacao_anterior">
+        <phrase id="fldcaption" value="9.3.2 - Situação Ações Provinientes de ACD Anteriores" />
+      </field>
+      <field id="mudanca_sqg">
+        <phrase id="fldcaption" value="b - Mudanças Interna/Externa pertinente ao SGQ" />
+      </field>
+      <field id="desempenho_eficacia">
+        <phrase id="fldcaption" value="c - Desempenho e Eficacia do SGQ" />
+      </field>
+      <field id="satisfacao_cliente">
+        <phrase id="fldcaption" value="c1 - Satisfação Cliente e retroalimentação das PI" />
+      </field>
+      <field id="objetivos_alcancados">
+        <phrase id="fldcaption" value="c2 - Extensão na qual os objetivos da qualidade foram alcançados" />
+      </field>
+      <field id="desempenho_processo">
+        <phrase id="fldcaption" value="c3 - Desempenho do Processo Conformidade de Prod/Serviços" />
+      </field>
+      <field id="nao_confomidade_acoes_corretivas">
+        <phrase id="fldcaption" value="c4 - Não Conformidade e Ações Corretivas" />
+      </field>
+      <field id="monitoramento_medicao">
+        <phrase id="fldcaption" value="c5 - Resultados de Medição e Monitoramento" />
+      </field>
+      <field id="resultado_auditoria">
+        <phrase id="fldcaption" value="c6 - Resultado de Auditoria" />
+      </field>
+      <field id="desempenho_provedores_ext">
+        <phrase id="fldcaption" value="c7 - Desempenho Provedores Externos" />
+      </field>
+      <field id="suficiencia_recursos">
+        <phrase id="fldcaption" value="d - Suficiencia de Recursos" />
+      </field>
+      <field id="acoes_risco_oportunidades">
+        <phrase id="fldcaption" value="e - Eficacia de Ações Tomadas p/Abordar Risco e Oportunidades" />
+      </field>
+      <field id="oportunidade_melhora_entrada">
+        <phrase id="fldcaption" value="f - Oportunidades Melhorias (Trazidas)" />
+      </field>
+      <field id="oportunidade_melhora_saida">
+        <phrase id="fldcaption" value="9.3.3 - Oportunidades Melhorias (a ser Implementada)" />
+      </field>
+      <field id="qualquer_mudanca_sgq">
+        <phrase id="fldcaption" value="b - Qualquer Nec Mudanças no SGQ" />
+      </field>
+      <field id="nec_recurso">
+        <phrase id="fldcaption" value="c - Necessidade de Recursos" />
+      </field>
+      <field id="anexo">
+        <phrase id="fldcaption" value="Anexos" />
+      </field>
+    </table>
+    <table id="item_plano_aud_int">
+      <phrase id="tblcaption" value="Plano" />
+      <field id="iditem_plano_aud_int">
+        <phrase id="fldcaption" value="Item Nr" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="processo_idprocesso">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="escopo">
+        <phrase id="fldcaption" value="Escopo" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Auditor" />
+      </field>
+      <field id="plano_auditoria_int_idplano_auditoria_int">
+        <phrase id="fldcaption" value="Pl Aud Nr" />
+      </field>
+    </table>
+    <table id="plano_auditoria_int">
+      <phrase id="tblcaption" value="Plano Aud Int" />
+      <field id="idplano_auditoria_int">
+        <phrase id="fldcaption" value="Pl Aud Nr" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="usuario_idusuario">
+        <phrase id="fldcaption" value="Auditor Lider" />
+      </field>
+      <field id="criterio">
+        <phrase id="fldcaption" value="Critério" />
+      </field>
+    </table>
+    <table id="relatorio_aud_int">
+      <phrase id="tblcaption" value="Relatorio" />
+      <field id="idrelatorio_aud_int">
+        <phrase id="fldcaption" value="idrelatorio aud int" />
+      </field>
+      <field id="dt_cadastro">
+        <phrase id="fldcaption" value="Cadastrado Em:" />
+      </field>
+      <field id="plano_auditoria_int_idplano_auditoria_int">
+        <phrase id="fldcaption" value="Plano Nr" />
+      </field>
+      <field id="item_plano_aud_int_iditem_plano_aud_int">
+        <phrase id="fldcaption" value="Item" />
+        <phrase id="flderrmsg" value="Item do Plano Já Cadastrado !!!" />
+      </field>
+      <field id="metodo">
+        <phrase id="fldcaption" value="Método" />
+        <phrase id="fldtagvalue1" value="Analise Doc" />
+        <phrase id="fldtagcaption1" value="Analise Doc" />
+        <phrase id="fldtagvalue2" value="Evidencia" />
+        <phrase id="fldtagcaption2" value="Evidencia" />
+        <phrase id="fldtagvalue3" value="Entrevista" />
+        <phrase id="fldtagcaption3" value="Entrevista" />
+      </field>
+      <field id="descricao">
+        <phrase id="fldcaption" value="Descrição" />
+      </field>
+      <field id="evidencia">
+        <phrase id="fldcaption" value="Evidência" />
+      </field>
+      <field id="nao_conformidade">
+        <phrase id="fldcaption" value="Abrir NC?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+    </table>
+    <table id="view_relatoria_auditoria">
+      <phrase id="tblcaption" value="view relatorio aud int" />
+      <field id="plano_nr">
+        <phrase id="fldcaption" value="plano nr" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="data" />
+      </field>
+      <field id="auditor_lider">
+        <phrase id="fldcaption" value="auditor lider" />
+      </field>
+      <field id="processo">
+        <phrase id="fldcaption" value="processo" />
+      </field>
+      <field id="escopo">
+        <phrase id="fldcaption" value="escopo" />
+      </field>
+      <field id="auditor">
+        <phrase id="fldcaption" value="auditor" />
+      </field>
+      <field id="item">
+        <phrase id="fldcaption" value="item" />
+      </field>
+      <field id="descricao">
+        <phrase id="fldcaption" value="descricao" />
+      </field>
+      <field id="evidencia">
+        <phrase id="fldcaption" value="evidencia" />
+      </field>
+      <field id="nao_conformidade">
+        <phrase id="fldcaption" value="nao conformidade" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="metodo">
+        <phrase id="fldcaption" value="metodo" />
+        <phrase id="fldtagvalue1" value="Analise Doc" />
+        <phrase id="fldtagcaption1" value="Analise Doc" />
+        <phrase id="fldtagvalue2" value="Evidencia" />
+        <phrase id="fldtagcaption2" value="Evidencia" />
+        <phrase id="fldtagvalue3" value="Entrevista" />
+        <phrase id="fldtagcaption3" value="Entrevista" />
+      </field>
+    </table>
+    <table id="rel_view_aud_interna">
+      <phrase id="tblcaption" value="Relatorio de Auditoria Interna" />
+      <field id="plano_nr">
+        <phrase id="fldcaption" value="Pl Aud Nr" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="auditor_lider">
+        <phrase id="fldcaption" value="Auditor Lider" />
+      </field>
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="auditor">
+        <phrase id="fldcaption" value="Auditor" />
+      </field>
+      <field id="metodo">
+        <phrase id="fldcaption" value="Metodo" />
+        <phrase id="fldtagvalue1" value="Analise Doc" />
+        <phrase id="fldtagcaption1" value="Analise Doc" />
+        <phrase id="fldtagvalue2" value="Evidencia" />
+        <phrase id="fldtagcaption2" value="Evidencia" />
+        <phrase id="fldtagvalue3" value="Entrevista" />
+        <phrase id="fldtagcaption3" value="Entrevista" />
+      </field>
+      <field id="escopo">
+        <phrase id="fldcaption" value="Escopo" />
+      </field>
+      <field id="descricao">
+        <phrase id="fldcaption" value="Descrição" />
+      </field>
+      <field id="evidencia">
+        <phrase id="fldcaption" value="Evidencia" />
+      </field>
+      <field id="nao_conformidade">
+        <phrase id="fldcaption" value="Abrir NC?" />
+        <phrase id="fldtagvalue1" value="Sim" />
+        <phrase id="fldtagcaption1" value="Sim" />
+        <phrase id="fldtagvalue2" value="Nao" />
+        <phrase id="fldtagcaption2" value="Nao" />
+      </field>
+      <field id="item">
+        <phrase id="fldcaption" value="item" />
+      </field>
+    </table>
+    <table id="view_plano_auditoria">
+      <phrase id="tblcaption" value="view plano auditoria" />
+      <field id="idplano_auditoria_int">
+        <phrase id="fldcaption" value="Plano Nr" />
+      </field>
+      <field id="audlider">
+        <phrase id="fldcaption" value="Auditor Lider" />
+      </field>
+      <field id="criterio">
+        <phrase id="fldcaption" value="Critérios" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="auditor">
+        <phrase id="fldcaption" value="Auditor" />
+      </field>
+      <field id="escopo">
+        <phrase id="fldcaption" value="Escopo" />
+      </field>
+      <field id="iditem_plano_aud_int">
+        <phrase id="fldcaption" value="Item" />
+      </field>
+    </table>
+    <table id="rel_view_plano_auditoria">
+      <phrase id="tblcaption" value="Plano Auditoria Interna" />
+      <field id="idplano_auditoria_int">
+        <phrase id="fldcaption" value="Plano Nr" />
+      </field>
+      <field id="audlider">
+        <phrase id="fldcaption" value="Auditor Lider" />
+      </field>
+      <field id="criterio">
+        <phrase id="fldcaption" value="Critérios" />
+      </field>
+      <field id="processo">
+        <phrase id="fldcaption" value="Processo" />
+      </field>
+      <field id="auditor">
+        <phrase id="fldcaption" value="Auditor" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="escopo">
+        <phrase id="fldcaption" value="Escopo" />
+      </field>
+      <field id="iditem_plano_aud_int">
+        <phrase id="fldcaption" value="Item" />
+      </field>
+    </table>
+  </project>
+</ew-language>
