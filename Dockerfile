@@ -50,7 +50,7 @@ RUN chown -R www-data:www-data /var/www/html \
 RUN composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev
 
 # Define o arquivo inicial como login.php
-RUN echo "DirectoryIndex login.php" > /var/www/html/.htaccess
+RUN echo "DirectoryIndex index.php" > /var/www/html/.htaccess
 
 EXPOSE 80
 
