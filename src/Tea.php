@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPMaker2023\sgq;
+namespace PHPMaker2024\sgq;
 
 /**
  * Class for TEA encryption/decryption
