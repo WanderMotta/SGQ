@@ -30,6 +30,9 @@ RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
 # Ativa o mod_rewrite do Apache
 RUN a2enmod rewrite
 
+# Configura o Apache para permitir .htaccess
+RUN sed -i '/<Directory \/var\/www\/>/,/<\/Directory>/ s/AllowOverride None/AllowOverride All/' /etc/apache2/apache2.conf
+
 # Instala o Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
